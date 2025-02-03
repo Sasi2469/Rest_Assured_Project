@@ -22,7 +22,7 @@ public class SpecBuilder2 {
 		
 		 PreemptiveBasicAuthScheme auth = new PreemptiveBasicAuthScheme();
 		 auth.setUserName("sasik288120@gmail.com");
-		 auth.setPassword("ATATT3xFfGF0OrfCcYkmNi8qMY5MstcoafMuuP6DI0XNR2rd2XQNdXcaZVo86QnH9BO9JXPmDIlasFfv07ZIXN_SUymv7u5RYVP8_hDssriKoIa9bkZu79btAuzVMNuSc8AnAUave8l18kiBGFg0TV4YWMiuCKvepgRPIm6eZDRIhF7Cpk7DqRo=D7E79840");
+		 auth.setPassword("ATATT3xFfGF0vmp9m47nfso2JyFtMydYfGcdIv155DPlhefFJws0T6aMrUTLzVgm1OgiDlvLNjjHX9MVFNZYwa8Uo0zhGWIDrq_59NGv_kMCgZcdI7jRFDRnF-7zQbIBHbJGkkfp5_leXm9QeBSw_F9dp-qHqDKtPrjebD7ginMpOumBvuNaxRQ=AED2C7F3");
 	
 		
 		 RequestSpecification reqSpec = new RequestSpecBuilder()

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="org.stepdefinition.TestRunner" time="7.53" errors="0" skipped="0">
+<testsuite tests="4" failures="4" name="org.stepdefinition.TestRunner" time="33.167" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
@@ -27,9 +27,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\sasik\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf9126137123356886721.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\sasik\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6825874225727035590.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_202/bin/server;C:/Program Files/Java/jre1.8.0_202/bin;C:/Program Files/Java/jre1.8.0_202/lib/amd64;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Program Files\Java\jdk-11\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-11\bin;C:\Users\sasik\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files\Git\cmd;C:\Users\sasik\AppData\Local\Microsoft\WindowsApps;;C:\Users\sasik\Downloads\eclipse-committers-oxygen-3a-win32-x86_64\eclipse;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_202/bin/server;C:/Program Files/Java/jre1.8.0_202/bin;C:/Program Files/Java/jre1.8.0_202/lib/amd64;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-11\bin;C:\Users\sasik\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files\Git\cmd;C:\Users\sasik\AppData\Local\Microsoft\WindowsApps;;C:\Users\sasik\Downloads\eclipse-committers-oxygen-3a-win32-x86_64\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,8 +61,347 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="To validate the Jira_Api" name="To validate create issue in Jira_Api using Post_Request method" time="5.049"/>
-  <testcase classname="To validate the Jira_Api" name="To validate the update issue in Jira_API using Put_Request_Method" time="0.841"/>
-  <testcase classname="To validate the Jira_Api" name="To validate the retrieve issue in Jira_Api using Get_Request_Method" time="0.681"/>
-  <testcase classname="To validate the Jira_Api" name="To validate the delete issue in Jira_Api using Delete_Request_Method" time="0.959"/>
+  <testcase classname="To validate the Jira_Api" name="To validate create issue in Jira_Api using Post_Request method" time="30.5">
+    <failure message="1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;401&gt;.
+" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;401&gt;.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+	at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:92)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:288)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$spec(ValidatableResponseImpl.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.spec(ValidatableResponseImpl.groovy:76)
+	at io.restassured.internal.ValidatableResponseImpl.spec(ValidatableResponseImpl.groovy)
+	at org.stepdefinition.StepDefinition.validate_the_response_status_code_for_the_request_as(StepDefinition.java:41)
+	at ✽.Validate the Response_status_code for the Request as 201(file:src/test/resources/Feature/JiraApi.feature:7)
+</failure>
+    <system-out>Request method:	POST
+Request URI:	https://sasik288120.atlassian.net/rest/api/2/issue/
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{
+    &quot;fields&quot;: {
+        &quot;project&quot;: {
+            &quot;key&quot;: &quot;KAN&quot;
+        },
+        &quot;summary&quot;: &quot;LoginPage button issue&quot;,
+        &quot;description&quot;: &quot;Clicking login page button not going to login page&quot;,
+        &quot;issuetype&quot;: {
+            &quot;name&quot;: &quot;Bug&quot;
+        }
+    }
+}
+HTTP/1.1 401 Unauthorized
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Mon, 03 Feb 2025 06:49:39 GMT
+Server: AtlassianEdge
+Timing-Allow-Origin: *
+X-Arequestid: c762c210fcf9b5d22198eede5310c17c
+X-Seraph-Loginreason: AUTHENTICATED_FAILED
+Set-Cookie: atlassian.xsrf.token=44c343070fc6ce03045711ae87ba270a28209276_lout; Path=/; SameSite=None; Secure
+Cache-Control: no-cache, no-store, no-transform
+Www-Authenticate: OAuth realm=&quot;https%3A%2F%2Fsasik288120.atlassian.net&quot;
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Atl-Traceid: bc826b3fe32242fba7f48c33cab70aed
+Atl-Request-Id: bc826b3f-e322-42fb-a7f4-8c33cab70aed
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Report-To: {&quot;endpoints&quot;: [{&quot;url&quot;: &quot;https://dz8aopenkvv6s.cloudfront.net&quot;}], &quot;group&quot;: &quot;endpoint-1&quot;, &quot;include_subdomains&quot;: true, &quot;max_age&quot;: 600}
+Nel: {&quot;failure_fraction&quot;: 0.001, &quot;include_subdomains&quot;: true, &quot;max_age&quot;: 600, &quot;report_to&quot;: &quot;endpoint-1&quot;}
+Server-Timing: atl-edge;dur=444,atl-edge-internal;dur=147,atl-edge-upstream;dur=246,atl-edge-pop;desc=&quot;aws-ap-south-1&quot;
+X-Cache: Error from cloudfront
+Via: 1.1 5aa3e4ef3324643e6b3a97a3004f9118.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: MAA51-C2
+X-Amz-Cf-Id: eacAF0cYdiAMvbFKRDcW_7lM1i5t46m1j6pBodu5ybR3YqvsusF_uA==
+
+{
+    &quot;errorMessages&quot;: [
+        &quot;You do not have permission to create issues in this project.&quot;
+    ],
+    &quot;errors&quot;: {
+        
+    }
+}
+</system-out>
+    <system-err>SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+</system-err>
+  </testcase>
+  <testcase classname="To validate the Jira_Api" name="To validate the update issue in Jira_API using Put_Request_Method" time="0.921">
+    <failure message="1 expectation failed.
+Expected status code &lt;204&gt; but was &lt;404&gt;.
+" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;204&gt; but was &lt;404&gt;.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:92)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:288)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$spec(ValidatableResponseImpl.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.spec(ValidatableResponseImpl.groovy:76)
+	at io.restassured.internal.ValidatableResponseImpl.spec(ValidatableResponseImpl.groovy)
+	at org.stepdefinition.StepDefinition.validate_the_response_status_code_for_the_request_as(StepDefinition.java:41)
+	at ✽.Validate the Response_status_code for the Request as 204(file:src/test/resources/Feature/JiraApi.feature:14)
+</failure>
+    <system-out>Request method:	PUT
+Request URI:	https://sasik288120.atlassian.net/rest/api/2/issue/null
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{
+    &quot;fields&quot;: {
+        &quot;summary&quot;: &quot;creatig bug in login&quot;,
+        &quot;description&quot;: &quot;Description&quot;
+    }
+}
+HTTP/1.1 404 Not Found
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Mon, 03 Feb 2025 06:49:41 GMT
+Server: AtlassianEdge
+Timing-Allow-Origin: *
+X-Arequestid: b698c2c97c0e1e47b53f0b4a16f9d553
+X-Seraph-Loginreason: AUTHENTICATED_FAILED
+Set-Cookie: atlassian.xsrf.token=befd405b413877018d313545bc77735ef37f7324_lout; Path=/; SameSite=None; Secure
+Cache-Control: no-cache, no-store, no-transform
+Content-Encoding: gzip
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Atl-Traceid: 507d3d9a8287471694a3a1d363bd1e9e
+Atl-Request-Id: 507d3d9a-8287-4716-94a3-a1d363bd1e9e
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Report-To: {&quot;endpoints&quot;: [{&quot;url&quot;: &quot;https://dz8aopenkvv6s.cloudfront.net&quot;}], &quot;group&quot;: &quot;endpoint-1&quot;, &quot;include_subdomains&quot;: true, &quot;max_age&quot;: 600}
+Nel: {&quot;failure_fraction&quot;: 0.001, &quot;include_subdomains&quot;: true, &quot;max_age&quot;: 600, &quot;report_to&quot;: &quot;endpoint-1&quot;}
+Server-Timing: atl-edge;dur=404,atl-edge-internal;dur=152,atl-edge-upstream;dur=203,atl-edge-pop;desc=&quot;aws-ap-south-1&quot;
+X-Cache: Error from cloudfront
+Via: 1.1 3e9b3998f63da3eb4c56af402e49224e.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: MAA51-C2
+X-Amz-Cf-Id: DkSdZ1_vo79HJdDYoHJGU6RQxNIfA2iQrjgeEycGkUw6MTiZAP0BNQ==
+
+{
+    &quot;errorMessages&quot;: [
+        &quot;Issue does not exist or you do not have permission to see it.&quot;
+    ],
+    &quot;errors&quot;: {
+        
+    }
+}
+</system-out>
+  </testcase>
+  <testcase classname="To validate the Jira_Api" name="To validate the retrieve issue in Jira_Api using Get_Request_Method" time="0.918">
+    <failure message="1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:92)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:288)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$spec(ValidatableResponseImpl.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.spec(ValidatableResponseImpl.groovy:76)
+	at io.restassured.internal.ValidatableResponseImpl.spec(ValidatableResponseImpl.groovy)
+	at org.stepdefinition.StepDefinition.validate_the_response_status_code_for_the_request_as(StepDefinition.java:41)
+	at ✽.Validate the Response_status_code for the Request as 200(file:src/test/resources/Feature/JiraApi.feature:19)
+</failure>
+    <system-out>Request method:	GET
+Request URI:	https://sasik288120.atlassian.net/rest/api/2/issue/null
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+HTTP/1.1 404 Not Found
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Mon, 03 Feb 2025 06:49:42 GMT
+Server: AtlassianEdge
+Timing-Allow-Origin: *
+X-Arequestid: d0f9bccb1be18add077efaa14d091712
+X-Seraph-Loginreason: AUTHENTICATED_FAILED
+Set-Cookie: atlassian.xsrf.token=dfca6fd5bf1024f9ab3892a4da34fdb84f0e5e6e_lout; Path=/; SameSite=None; Secure
+Cache-Control: no-cache, no-store, no-transform
+Content-Encoding: gzip
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Atl-Traceid: bef0cea3114f4f95be7e99e2229d8584
+Atl-Request-Id: bef0cea3-114f-4f95-be7e-99e2229d8584
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Report-To: {&quot;endpoints&quot;: [{&quot;url&quot;: &quot;https://dz8aopenkvv6s.cloudfront.net&quot;}], &quot;group&quot;: &quot;endpoint-1&quot;, &quot;include_subdomains&quot;: true, &quot;max_age&quot;: 600}
+Nel: {&quot;failure_fraction&quot;: 0.001, &quot;include_subdomains&quot;: true, &quot;max_age&quot;: 600, &quot;report_to&quot;: &quot;endpoint-1&quot;}
+Server-Timing: atl-edge;dur=458,atl-edge-internal;dur=157,atl-edge-upstream;dur=253,atl-edge-pop;desc=&quot;aws-ap-south-1&quot;
+X-Cache: Error from cloudfront
+Via: 1.1 2583973e0ec58d9d3a773297f09412ee.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: MAA51-C2
+X-Amz-Cf-Id: jEAEOicDjrWFJMf29Jk2UEqn_338UD5JqvVT2dwTstjhN3hQKGeBAQ==
+
+{
+    &quot;errorMessages&quot;: [
+        &quot;Issue does not exist or you do not have permission to see it.&quot;
+    ],
+    &quot;errors&quot;: {
+        
+    }
+}
+</system-out>
+  </testcase>
+  <testcase classname="To validate the Jira_Api" name="To validate the delete issue in Jira_Api using Delete_Request_Method" time="0.828">
+    <failure message="1 expectation failed.
+Expected status code &lt;204&gt; but was &lt;404&gt;.
+" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;204&gt; but was &lt;404&gt;.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:92)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:288)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$spec(ValidatableResponseImpl.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.spec(ValidatableResponseImpl.groovy:76)
+	at io.restassured.internal.ValidatableResponseImpl.spec(ValidatableResponseImpl.groovy)
+	at org.stepdefinition.StepDefinition.validate_the_response_status_code_for_the_request_as(StepDefinition.java:41)
+	at ✽.Validate the Response_status_code for the Request as 204(file:src/test/resources/Feature/JiraApi.feature:25)
+</failure>
+    <system-out>Request method:	DELETE
+Request URI:	https://sasik288120.atlassian.net/rest/api/2/issue/null
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+HTTP/1.1 404 Not Found
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Mon, 03 Feb 2025 06:49:43 GMT
+Server: AtlassianEdge
+Timing-Allow-Origin: *
+X-Arequestid: d0d91fce63712b9098ab5cf0ee0fb426
+X-Seraph-Loginreason: AUTHENTICATED_FAILED
+Set-Cookie: atlassian.xsrf.token=4d8ebbceb15536be79e87fca92032b2be2ccdc33_lout; Path=/; SameSite=None; Secure
+Cache-Control: no-cache, no-store, no-transform
+Content-Encoding: gzip
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Atl-Traceid: b83ceb66d8a64c26996b2a3166f32d92
+Atl-Request-Id: b83ceb66-d8a6-4c26-996b-2a3166f32d92
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Report-To: {&quot;endpoints&quot;: [{&quot;url&quot;: &quot;https://dz8aopenkvv6s.cloudfront.net&quot;}], &quot;group&quot;: &quot;endpoint-1&quot;, &quot;include_subdomains&quot;: true, &quot;max_age&quot;: 600}
+Nel: {&quot;failure_fraction&quot;: 0.001, &quot;include_subdomains&quot;: true, &quot;max_age&quot;: 600, &quot;report_to&quot;: &quot;endpoint-1&quot;}
+Server-Timing: atl-edge;dur=454,atl-edge-internal;dur=150,atl-edge-upstream;dur=259,atl-edge-pop;desc=&quot;aws-ap-south-1&quot;
+X-Cache: Error from cloudfront
+Via: 1.1 640fa25b6b0e269c235d870b4229e90c.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: MAA51-C2
+X-Amz-Cf-Id: 6ibf5dtwTkKomT3sz09FapkLh4_DqdjrFDSlVPkCUA8ZLgnaIYn-MA==
+
+{
+    &quot;errorMessages&quot;: [
+        &quot;Issue does not exist or you do not have permission to see it.&quot;
+    ],
+    &quot;errors&quot;: {
+        
+    }
+}
+</system-out>
+  </testcase>
 </testsuite>
