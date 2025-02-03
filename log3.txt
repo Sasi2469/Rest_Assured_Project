@@ -1,0 +1,374 @@
+Request method:	POST
+Request URI:	https://sasik288120.atlassian.net/rest/api/2/issue/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "fields": {
+        "project": {
+            "key": "KAN"
+        },
+        "summary": "LoginPage button issue",
+        "description": "Clicking login page button not going to login page",
+        "issuetype": {
+            "name": "Bug"
+        }
+    }
+}
+HTTP/1.1 201 Created
+Date: Sun, 02 Feb 2025 18:15:07 GMT
+Content-Type: application/json;charset=UTF-8
+Server: AtlassianEdge
+Timing-Allow-Origin: *
+X-Arequestid: 22d7bb8956fa57300a369705dc153126
+Set-Cookie: atlassian.xsrf.token=da6dea483890e11dfd65e32f3dd5acdb5170bf85_lin; Path=/; SameSite=None; Secure
+X-Aaccountid: 712020%3A929c13a7-6ba1-4081-83c5-d91c7c7c7b78
+Cache-Control: no-cache, no-store, no-transform
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Atl-Traceid: d23a29e45dc34c319061abe29a46d60a
+Atl-Request-Id: d23a29e4-5dc3-4c31-9061-abe29a46d60a
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Server-Timing: atl-edge;dur=878,atl-edge-internal;dur=92,atl-edge-upstream;dur=786,atl-edge-pop;desc="aws-ap-south-1"
+Transfer-Encoding: chunked
+
+{
+    "id": "10084",
+    "key": "KAN-80",
+    "self": "https://sasik288120.atlassian.net/rest/api/2/issue/10084"
+}
+Request method:	PUT
+Request URI:	https://sasik288120.atlassian.net/rest/api/2/issue/KAN-80
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "fields": {
+        "summary": "creatig bug in login",
+        "description": "Description"
+    }
+}
+HTTP/1.1 204 No Content
+Date: Sun, 02 Feb 2025 18:15:09 GMT
+Content-Type: application/json;charset=UTF-8
+Server: AtlassianEdge
+Timing-Allow-Origin: *
+X-Arequestid: 57cbb3199a10d912a7049327b61acfbd
+Set-Cookie: atlassian.xsrf.token=443baf00f3977bd24244ae326b57ae2f7c09604f_lin; Path=/; SameSite=None; Secure
+X-Aaccountid: 712020%3A929c13a7-6ba1-4081-83c5-d91c7c7c7b78
+Cache-Control: no-cache, no-store, no-transform
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Atl-Traceid: 88ec82a073db4cc4b7fe2541ee6c73fd
+Atl-Request-Id: 88ec82a0-73db-4cc4-b7fe-2541ee6c73fd
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Server-Timing: atl-edge;dur=451,atl-edge-internal;dur=15,atl-edge-upstream;dur=436,atl-edge-pop;desc="aws-ap-south-1"
+Request method:	GET
+Request URI:	https://sasik288120.atlassian.net/rest/api/2/issue/KAN-80
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 02 Feb 2025 18:15:09 GMT
+Content-Type: application/json;charset=UTF-8
+Server: AtlassianEdge
+Timing-Allow-Origin: *
+X-Arequestid: 85b0e9761e8bcb8e73c39c27f33bf932
+Set-Cookie: atlassian.xsrf.token=f0553f1a7ad82eafac0f5929ce8cd0e2359b16da_lin; Path=/; SameSite=None; Secure
+X-Aaccountid: 712020%3A929c13a7-6ba1-4081-83c5-d91c7c7c7b78
+Cache-Control: no-cache, no-store, no-transform
+Vary: Accept-Encoding
+Content-Encoding: gzip
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Atl-Traceid: adec0731419944e8acbbc232de92adf1
+Atl-Request-Id: adec0731-4199-44e8-acbb-c232de92adf1
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Server-Timing: atl-edge;dur=318,atl-edge-internal;dur=14,atl-edge-upstream;dur=306,atl-edge-pop;desc="aws-ap-south-1"
+Transfer-Encoding: chunked
+
+{
+    "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations,customfield_10010.requestTypePractice",
+    "id": "10084",
+    "self": "https://sasik288120.atlassian.net/rest/api/2/issue/10084",
+    "key": "KAN-80",
+    "fields": {
+        "statuscategorychangedate": "2025-02-02T23:45:07.206+0530",
+        "issuetype": {
+            "self": "https://sasik288120.atlassian.net/rest/api/2/issuetype/10015",
+            "id": "10015",
+            "description": "Bugs track problems or errors.",
+            "iconUrl": "https://sasik288120.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+            "name": "Bug",
+            "subtask": false,
+            "avatarId": 10303,
+            "entityId": "b8a81a78-76ac-4093-998f-a215854ab337",
+            "hierarchyLevel": 0
+        },
+        "timespent": null,
+        "customfield_10030": null,
+        "project": {
+            "self": "https://sasik288120.atlassian.net/rest/api/2/project/10000",
+            "id": "10000",
+            "key": "KAN",
+            "name": "My Kanban Project",
+            "projectTypeKey": "software",
+            "simplified": true,
+            "avatarUrls": {
+                "48x48": "https://sasik288120.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10403",
+                "24x24": "https://sasik288120.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10403?size=small",
+                "16x16": "https://sasik288120.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10403?size=xsmall",
+                "32x32": "https://sasik288120.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10403?size=medium"
+            }
+        },
+        "customfield_10031": null,
+        "fixVersions": [
+            
+        ],
+        "customfield_10034": null,
+        "aggregatetimespent": null,
+        "resolution": null,
+        "customfield_10035": null,
+        "customfield_10036": null,
+        "customfield_10037": null,
+        "customfield_10027": null,
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": null,
+        "workratio": -1,
+        "issuerestriction": {
+            "issuerestrictions": {
+                
+            },
+            "shouldDisplay": true
+        },
+        "watches": {
+            "self": "https://sasik288120.atlassian.net/rest/api/2/issue/KAN-80/watchers",
+            "watchCount": 1,
+            "isWatching": true
+        },
+        "lastViewed": null,
+        "created": "2025-02-02T23:45:06.904+0530",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "priority": {
+            "self": "https://sasik288120.atlassian.net/rest/api/2/priority/3",
+            "iconUrl": "https://sasik288120.atlassian.net/images/icons/priorities/medium.svg",
+            "name": "Medium",
+            "id": "3"
+        },
+        "customfield_10023": null,
+        "labels": [
+            
+        ],
+        "customfield_10026": null,
+        "customfield_10016": null,
+        "customfield_10017": null,
+        "customfield_10018": {
+            "hasEpicLinkFieldDependency": false,
+            "showField": false,
+            "nonEditableReason": {
+                "reason": "EPIC_LINK_SHOULD_BE_USED",
+                "message": "To set an epic as the parent, use the epic link instead"
+            }
+        },
+        "customfield_10019": "0|i000dz:",
+        "timeestimate": null,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [
+            
+        ],
+        "issuelinks": [
+            
+        ],
+        "assignee": null,
+        "updated": "2025-02-02T23:45:09.058+0530",
+        "status": {
+            "self": "https://sasik288120.atlassian.net/rest/api/2/status/10000",
+            "description": "",
+            "iconUrl": "https://sasik288120.atlassian.net/",
+            "name": "To Do",
+            "id": "10000",
+            "statusCategory": {
+                "self": "https://sasik288120.atlassian.net/rest/api/2/statuscategory/2",
+                "id": 2,
+                "key": "new",
+                "colorName": "blue-gray",
+                "name": "To Do"
+            }
+        },
+        "components": [
+            
+        ],
+        "customfield_10050": null,
+        "timeoriginalestimate": null,
+        "customfield_10051": null,
+        "customfield_10052": null,
+        "description": "Description",
+        "customfield_10053": null,
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "timetracking": {
+            
+        },
+        "customfield_10015": null,
+        "customfield_10049": null,
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "customfield_10008": null,
+        "customfield_10009": null,
+        "aggregatetimeestimate": null,
+        "attachment": [
+            
+        ],
+        "summary": "creatig bug in login",
+        "creator": {
+            "self": "https://sasik288120.atlassian.net/rest/api/2/user?accountId=712020%3A929c13a7-6ba1-4081-83c5-d91c7c7c7b78",
+            "accountId": "712020:929c13a7-6ba1-4081-83c5-d91c7c7c7b78",
+            "emailAddress": "sasik288120@gmail.com",
+            "avatarUrls": {
+                "48x48": "https://secure.gravatar.com/avatar/4b6f2d6982f5b77ec1f54557b799db92?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FS-5.png",
+                "24x24": "https://secure.gravatar.com/avatar/4b6f2d6982f5b77ec1f54557b799db92?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FS-5.png",
+                "16x16": "https://secure.gravatar.com/avatar/4b6f2d6982f5b77ec1f54557b799db92?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FS-5.png",
+                "32x32": "https://secure.gravatar.com/avatar/4b6f2d6982f5b77ec1f54557b799db92?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FS-5.png"
+            },
+            "displayName": "Sasi",
+            "active": true,
+            "timeZone": "Asia/Calcutta",
+            "accountType": "atlassian"
+        },
+        "subtasks": [
+            
+        ],
+        "customfield_10040": null,
+        "customfield_10041": null,
+        "customfield_10042": null,
+        "reporter": {
+            "self": "https://sasik288120.atlassian.net/rest/api/2/user?accountId=712020%3A929c13a7-6ba1-4081-83c5-d91c7c7c7b78",
+            "accountId": "712020:929c13a7-6ba1-4081-83c5-d91c7c7c7b78",
+            "emailAddress": "sasik288120@gmail.com",
+            "avatarUrls": {
+                "48x48": "https://secure.gravatar.com/avatar/4b6f2d6982f5b77ec1f54557b799db92?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FS-5.png",
+                "24x24": "https://secure.gravatar.com/avatar/4b6f2d6982f5b77ec1f54557b799db92?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FS-5.png",
+                "16x16": "https://secure.gravatar.com/avatar/4b6f2d6982f5b77ec1f54557b799db92?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FS-5.png",
+                "32x32": "https://secure.gravatar.com/avatar/4b6f2d6982f5b77ec1f54557b799db92?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FS-5.png"
+            },
+            "displayName": "Sasi",
+            "active": true,
+            "timeZone": "Asia/Calcutta",
+            "accountType": "atlassian"
+        },
+        "customfield_10043": null,
+        "aggregateprogress": {
+            "progress": 0,
+            "total": 0
+        },
+        "customfield_10044": null,
+        "customfield_10045": null,
+        "customfield_10001": null,
+        "customfield_10046": null,
+        "customfield_10002": [
+            
+        ],
+        "customfield_10047": null,
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "customfield_10048": [
+            
+        ],
+        "customfield_10038": null,
+        "customfield_10039": [
+            
+        ],
+        "environment": null,
+        "duedate": null,
+        "progress": {
+            "progress": 0,
+            "total": 0
+        },
+        "votes": {
+            "self": "https://sasik288120.atlassian.net/rest/api/2/issue/KAN-80/votes",
+            "votes": 0,
+            "hasVoted": false
+        },
+        "comment": {
+            "comments": [
+                
+            ],
+            "self": "https://sasik288120.atlassian.net/rest/api/2/issue/10084/comment",
+            "maxResults": 0,
+            "total": 0,
+            "startAt": 0
+        },
+        "worklog": {
+            "startAt": 0,
+            "maxResults": 20,
+            "total": 0,
+            "worklogs": [
+                
+            ]
+        }
+    }
+}
+Request method:	DELETE
+Request URI:	https://sasik288120.atlassian.net/rest/api/2/issue/KAN-80
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Date: Sun, 02 Feb 2025 18:15:10 GMT
+Content-Type: application/json;charset=UTF-8
+Server: AtlassianEdge
+Timing-Allow-Origin: *
+X-Arequestid: 613b337e6bfaaa437c6f6cc57cb05629
+Set-Cookie: atlassian.xsrf.token=205b66f20ec3afdadb94def3bc6e988214e372fa_lin; Path=/; SameSite=None; Secure
+X-Aaccountid: 712020%3A929c13a7-6ba1-4081-83c5-d91c7c7c7b78
+Cache-Control: no-cache, no-store, no-transform
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Atl-Traceid: 11f1d69965fe48739375ef60924ea208
+Atl-Request-Id: 11f1d699-65fe-4873-9375-ef60924ea208
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Server-Timing: atl-edge;dur=658,atl-edge-internal;dur=18,atl-edge-upstream;dur=641,atl-edge-pop;desc="aws-ap-south-1"

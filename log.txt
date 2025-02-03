@@ -1,0 +1,37 @@
+Request method:	GET
+Request URI:	https://sasik288120.atlassian.net/rest/api/2/issue/KAN-29?jql=assignee%3DSasi
+Proxy:			<none>
+Request params:	jql=assignee=Sasi
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+Request method:	POST
+Request URI:	https://sasik288120.atlassian.net/rest/api/2/issue/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "fields": {
+        "project": {
+            "key": "KAN"
+        },
+        "summary": "List button not clicking",
+        "description": "list button after clicking cant load full page of the list page",
+        "issuetype": {
+            "name": "Bug"
+        }
+    }
+}
