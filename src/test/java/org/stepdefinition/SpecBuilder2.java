@@ -22,8 +22,8 @@ public class SpecBuilder2 {
 		}
 		
 		 PreemptiveBasicAuthScheme auth = new PreemptiveBasicAuthScheme();
-		 auth.setUserName("sasik288120@gmail.com");
-		 auth.setPassword(BaseClass.readExcel("C:\\Users\\sasik\\Desktop\\excel\\Book1.xlsx", 0, 3,1 ));	
+		 auth.setUserName("sasik288120@gmail.com");		
+		 auth.setPassword(BaseClass.readExcel("C:\\Users\\sasik\\Desktop\\excel\\Book1.xlsx", 0, 3, 1));	
 		
 		 RequestSpecification reqSpec = new RequestSpecBuilder()
 				 .addFilter(RequestLoggingFilter.logRequestTo(p))

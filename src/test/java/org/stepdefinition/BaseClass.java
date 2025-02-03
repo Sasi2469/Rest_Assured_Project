@@ -25,12 +25,22 @@ public class BaseClass {
                
               int cellType = cell.getCellType();
               
-             System.out.println(cellType);
+           // System.out.println(cellType);
              
              if (cellType==1) {
-				
-			}String stringCellValue = cell.getStringCellValue();
-			return stringCellValue;               
+            	 String stringCellValue = cell.getStringCellValue();
+            	
+            	 return stringCellValue ;
+            	 
+			}
+             else {
+            	 double numericCellValue = cell.getNumericCellValue();
+     		    String value = String.valueOf(numericCellValue);
+     			return value;
+			}
+			
+			
+			              
 	}
 	
 	

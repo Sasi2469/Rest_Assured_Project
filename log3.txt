@@ -23,32 +23,37 @@ Body:
     }
 }
 HTTP/1.1 201 Created
-Date: Mon, 03 Feb 2025 06:55:32 GMT
 Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Mon, 03 Feb 2025 08:05:18 GMT
 Server: AtlassianEdge
 Timing-Allow-Origin: *
-X-Arequestid: d6e6dafef7183bc6e2547074b8a448cf
-Set-Cookie: atlassian.xsrf.token=43afbd411b47919af8d4b7d3ed1c806468f1f109_lin; Path=/; SameSite=None; Secure
+X-Arequestid: f9bd5f0ae52de6d278de931e6e18ce3d
+Set-Cookie: atlassian.xsrf.token=4db0c973a8a0a7211acb846749ab663749f77c5d_lin; Path=/; SameSite=None; Secure
 X-Aaccountid: 712020%3A929c13a7-6ba1-4081-83c5-d91c7c7c7b78
 Cache-Control: no-cache, no-store, no-transform
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
 X-Xss-Protection: 1; mode=block
-Atl-Traceid: cf17b72f11014c0b925f4ecd103eb0ea
-Atl-Request-Id: cf17b72f-1101-4c0b-925f-4ecd103eb0ea
+Atl-Traceid: 4441a5275baf45729e63bffa3d4543e7
+Atl-Request-Id: 4441a527-5baf-4572-9e63-bffa3d4543e7
 Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
 Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
 Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
-Server-Timing: atl-edge;dur=980,atl-edge-internal;dur=219,atl-edge-upstream;dur=761,atl-edge-pop;desc="aws-ap-south-1"
-Transfer-Encoding: chunked
+X-Cache: Miss from cloudfront
+Via: 1.1 3e9b3998f63da3eb4c56af402e49224e.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: MAA51-C2
+X-Amz-Cf-Id: YGxZeq0Kej4ijF4jQU01_5F86k9oos53V3oXm3wYkby1t-NP51b9SA==
+Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=31,cdn-upstream-fbl;dur=1203,atl-edge;dur=1076,atl-edge-internal;dur=220,atl-edge-upstream;dur=857,atl-edge-pop;desc="aws-ap-south-1",cdn-cache-miss,cdn-pop;desc="MAA51-C2",cdn-rid;desc="YGxZeq0Kej4ijF4jQU01_5F86k9oos53V3oXm3wYkby1t-NP51b9SA==",cdn-downstream-fbl;dur=1207
 
 {
-    "id": "10085",
-    "key": "KAN-81",
-    "self": "https://sasik288120.atlassian.net/rest/api/2/issue/10085"
+    "id": "10087",
+    "key": "KAN-83",
+    "self": "https://sasik288120.atlassian.net/rest/api/2/issue/10087"
 }
 Request method:	PUT
-Request URI:	https://sasik288120.atlassian.net/rest/api/2/issue/KAN-81
+Request URI:	https://sasik288120.atlassian.net/rest/api/2/issue/KAN-83
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -66,25 +71,30 @@ Body:
     }
 }
 HTTP/1.1 204 No Content
-Date: Mon, 03 Feb 2025 06:55:35 GMT
 Content-Type: application/json;charset=UTF-8
+Connection: keep-alive
+Date: Mon, 03 Feb 2025 08:05:21 GMT
 Server: AtlassianEdge
 Timing-Allow-Origin: *
-X-Arequestid: acaf89013454a202c5204682b98763ba
-Set-Cookie: atlassian.xsrf.token=d3f6853b603d7ba05271982c10eeb2a38375a66e_lin; Path=/; SameSite=None; Secure
+X-Arequestid: 5c7c38c8f5d9da62946cd0cf2eed3e3c
+Set-Cookie: atlassian.xsrf.token=69ba1f5363d2e69f5972b7383ab0fd7dfd65c763_lin; Path=/; SameSite=None; Secure
 X-Aaccountid: 712020%3A929c13a7-6ba1-4081-83c5-d91c7c7c7b78
 Cache-Control: no-cache, no-store, no-transform
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
 X-Xss-Protection: 1; mode=block
-Atl-Traceid: 600996a8b9d04dbbb7d102c6e5f51b88
-Atl-Request-Id: 600996a8-b9d0-4dbb-b7d1-02c6e5f51b88
+Atl-Traceid: 5342810335644a458bfde701bd4bc4df
+Atl-Request-Id: 53428103-3564-4a45-8bfd-e701bd4bc4df
 Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
 Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
 Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
-Server-Timing: atl-edge;dur=509,atl-edge-internal;dur=15,atl-edge-upstream;dur=494,atl-edge-pop;desc="aws-ap-south-1"
+X-Cache: Miss from cloudfront
+Via: 1.1 de97b288365d1a41329c86b524f817e2.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: MAA51-C2
+X-Amz-Cf-Id: 4ouNpoBnCUIkEfLHz4v2ZCXZ8MUQ38U3xzKDFNBM5NhZJsnebQN4BQ==
+Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=24,cdn-upstream-fbl;dur=623,atl-edge;dur=524,atl-edge-internal;dur=13,atl-edge-upstream;dur=511,atl-edge-pop;desc="aws-ap-south-1",cdn-cache-miss,cdn-pop;desc="MAA51-C2",cdn-rid;desc="4ouNpoBnCUIkEfLHz4v2ZCXZ8MUQ38U3xzKDFNBM5NhZJsnebQN4BQ==",cdn-downstream-fbl;dur=627
 Request method:	GET
-Request URI:	https://sasik288120.atlassian.net/rest/api/2/issue/KAN-81
+Request URI:	https://sasik288120.atlassian.net/rest/api/2/issue/KAN-83
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -96,33 +106,38 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 03 Feb 2025 06:55:38 GMT
 Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Mon, 03 Feb 2025 08:05:22 GMT
 Server: AtlassianEdge
 Timing-Allow-Origin: *
-X-Arequestid: dc4356ce100784799f44d1eff018c1f1
-Set-Cookie: atlassian.xsrf.token=edef45bdd01665ebfdc27a7589b81ff2062c8a6d_lin; Path=/; SameSite=None; Secure
+X-Arequestid: c31e512b2f245c07aa3730ab81bdf122
+Set-Cookie: atlassian.xsrf.token=7248821a5a24eeef966241d110282e7bdb32439b_lin; Path=/; SameSite=None; Secure
 X-Aaccountid: 712020%3A929c13a7-6ba1-4081-83c5-d91c7c7c7b78
 Cache-Control: no-cache, no-store, no-transform
 Vary: Accept-Encoding
 Content-Encoding: gzip
 X-Content-Type-Options: nosniff
 X-Xss-Protection: 1; mode=block
-Atl-Traceid: ce12b53ce0c0482199d70c5d812a59d8
-Atl-Request-Id: ce12b53c-e0c0-4821-99d7-0c5d812a59d8
+Atl-Traceid: bb01b7deb5b34bc5a83402678846b702
+Atl-Request-Id: bb01b7de-b5b3-4bc5-a834-02678846b702
 Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
 Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
 Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
-Server-Timing: atl-edge;dur=343,atl-edge-internal;dur=17,atl-edge-upstream;dur=328,atl-edge-pop;desc="aws-ap-south-1"
-Transfer-Encoding: chunked
+X-Cache: Miss from cloudfront
+Via: 1.1 679e2d9de234c68f799a62d542db3974.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: MAA51-C2
+X-Amz-Cf-Id: _zb85Tzucl0BqFFqWSkzp0MOcJnSzB-Sax4CjV6nOXzG4umv1HY37A==
+Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=28,cdn-upstream-fbl;dur=622,atl-edge;dur=499,atl-edge-internal;dur=16,atl-edge-upstream;dur=485,atl-edge-pop;desc="aws-ap-south-1",cdn-cache-miss,cdn-pop;desc="MAA51-C2",cdn-rid;desc="_zb85Tzucl0BqFFqWSkzp0MOcJnSzB-Sax4CjV6nOXzG4umv1HY37A==",cdn-downstream-fbl;dur=625
 
 {
     "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations,customfield_10010.requestTypePractice",
-    "id": "10085",
-    "self": "https://sasik288120.atlassian.net/rest/api/2/issue/10085",
-    "key": "KAN-81",
+    "id": "10087",
+    "self": "https://sasik288120.atlassian.net/rest/api/2/issue/10087",
+    "key": "KAN-83",
     "fields": {
-        "statuscategorychangedate": "2025-02-03T12:25:32.499+0530",
+        "statuscategorychangedate": "2025-02-03T13:35:18.377+0530",
         "issuetype": {
             "self": "https://sasik288120.atlassian.net/rest/api/2/issuetype/10015",
             "id": "10015",
@@ -166,7 +181,7 @@ Transfer-Encoding: chunked
         "resolutiondate": null,
         "workratio": -1,
         "watches": {
-            "self": "https://sasik288120.atlassian.net/rest/api/2/issue/KAN-81/watchers",
+            "self": "https://sasik288120.atlassian.net/rest/api/2/issue/KAN-83/watchers",
             "watchCount": 1,
             "isWatching": true
         },
@@ -177,7 +192,7 @@ Transfer-Encoding: chunked
             "shouldDisplay": true
         },
         "lastViewed": null,
-        "created": "2025-02-03T12:25:32.217+0530",
+        "created": "2025-02-03T13:35:18.015+0530",
         "customfield_10020": null,
         "customfield_10021": null,
         "customfield_10022": null,
@@ -202,7 +217,7 @@ Transfer-Encoding: chunked
                 "message": "To set an epic as the parent, use the epic link instead"
             }
         },
-        "customfield_10019": "0|i000af:",
+        "customfield_10019": "0|i000an:",
         "timeestimate": null,
         "aggregatetimeoriginalestimate": null,
         "versions": [
@@ -212,7 +227,7 @@ Transfer-Encoding: chunked
             
         ],
         "assignee": null,
-        "updated": "2025-02-03T12:25:35.769+0530",
+        "updated": "2025-02-03T13:35:20.835+0530",
         "status": {
             "self": "https://sasik288120.atlassian.net/rest/api/2/status/10000",
             "description": "",
@@ -242,8 +257,8 @@ Transfer-Encoding: chunked
         "timetracking": {
             
         },
-        "customfield_10049": null,
         "customfield_10005": null,
+        "customfield_10049": null,
         "customfield_10006": null,
         "customfield_10007": null,
         "security": null,
@@ -275,7 +290,6 @@ Transfer-Encoding: chunked
         "customfield_10040": null,
         "customfield_10041": null,
         "customfield_10042": null,
-        "customfield_10043": null,
         "reporter": {
             "self": "https://sasik288120.atlassian.net/rest/api/2/user?accountId=712020%3A929c13a7-6ba1-4081-83c5-d91c7c7c7b78",
             "accountId": "712020:929c13a7-6ba1-4081-83c5-d91c7c7c7b78",
@@ -291,11 +305,12 @@ Transfer-Encoding: chunked
             "timeZone": "Asia/Calcutta",
             "accountType": "atlassian"
         },
-        "customfield_10044": null,
+        "customfield_10043": null,
         "aggregateprogress": {
             "progress": 0,
             "total": 0
         },
+        "customfield_10044": null,
         "customfield_10045": null,
         "customfield_10001": null,
         "customfield_10002": [
@@ -318,19 +333,19 @@ Transfer-Encoding: chunked
             "progress": 0,
             "total": 0
         },
-        "votes": {
-            "self": "https://sasik288120.atlassian.net/rest/api/2/issue/KAN-81/votes",
-            "votes": 0,
-            "hasVoted": false
-        },
         "comment": {
             "comments": [
                 
             ],
-            "self": "https://sasik288120.atlassian.net/rest/api/2/issue/10085/comment",
+            "self": "https://sasik288120.atlassian.net/rest/api/2/issue/10087/comment",
             "maxResults": 0,
             "total": 0,
             "startAt": 0
+        },
+        "votes": {
+            "self": "https://sasik288120.atlassian.net/rest/api/2/issue/KAN-83/votes",
+            "votes": 0,
+            "hasVoted": false
         },
         "worklog": {
             "startAt": 0,
@@ -343,7 +358,7 @@ Transfer-Encoding: chunked
     }
 }
 Request method:	DELETE
-Request URI:	https://sasik288120.atlassian.net/rest/api/2/issue/KAN-81
+Request URI:	https://sasik288120.atlassian.net/rest/api/2/issue/KAN-83
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -355,20 +370,25 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 204 No Content
-Date: Mon, 03 Feb 2025 06:55:41 GMT
 Content-Type: application/json;charset=UTF-8
+Connection: keep-alive
+Date: Mon, 03 Feb 2025 08:05:24 GMT
 Server: AtlassianEdge
 Timing-Allow-Origin: *
-X-Arequestid: 526ab4726e1f38b32ad368ac3799176f
-Set-Cookie: atlassian.xsrf.token=96d4e302199d7d37ff72c7208833a8fd5b8af2c8_lin; Path=/; SameSite=None; Secure
+X-Arequestid: f04e5678b5f7cb74011476b19eb94965
+Set-Cookie: atlassian.xsrf.token=7600cd2d05bea92fd08948d667182665bc3d9f51_lin; Path=/; SameSite=None; Secure
 X-Aaccountid: 712020%3A929c13a7-6ba1-4081-83c5-d91c7c7c7b78
 Cache-Control: no-cache, no-store, no-transform
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
 X-Xss-Protection: 1; mode=block
-Atl-Traceid: 717e8dab837c4947976a73684b2bcc1f
-Atl-Request-Id: 717e8dab-837c-4947-976a-73684b2bcc1f
+Atl-Traceid: 11f4d55faa7d420e95abf62a193ac70f
+Atl-Request-Id: 11f4d55f-aa7d-420e-95ab-f62a193ac70f
 Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
 Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
 Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
-Server-Timing: atl-edge;dur=753,atl-edge-internal;dur=14,atl-edge-upstream;dur=740,atl-edge-pop;desc="aws-ap-south-1"
+X-Cache: Miss from cloudfront
+Via: 1.1 58957a4b61f53236aa226f329eb22392.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: MAA51-C2
+X-Amz-Cf-Id: eX-oZ1wUgscYu54piyu_puNAUDOqYlfh2awTXlnB9cvBvKaGxh17rg==
+Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=29,cdn-upstream-fbl;dur=896,atl-edge;dur=777,atl-edge-internal;dur=16,atl-edge-upstream;dur=762,atl-edge-pop;desc="aws-ap-south-1",cdn-cache-miss,cdn-pop;desc="MAA51-C2",cdn-rid;desc="eX-oZ1wUgscYu54piyu_puNAUDOqYlfh2awTXlnB9cvBvKaGxh17rg==",cdn-downstream-fbl;dur=902
