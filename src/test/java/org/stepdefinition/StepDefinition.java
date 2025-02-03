@@ -14,6 +14,7 @@ import io.restassured.specification.ResponseSpecification;
 import static org.stepdefinition.PayLoad.*;
 
 import java.io.FileNotFoundException;
+import java.io.IOException;
 
 import org.hamcrest.Matchers;
 import org.junit.Assert;
@@ -27,7 +28,7 @@ public class StepDefinition {
 	static String key;
 
 	@Given("Add request Specification for the request")
-	public void add_request_Specification_for_the_request() throws FileNotFoundException {
+	public void add_request_Specification_for_the_request() throws IOException {
 		reqSpecifi = RestAssured.given().log().all().spec(requestSpecBuilder());
 	}
 

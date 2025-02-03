@@ -1,6 +1,7 @@
 package org.stepdefinition;
 
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.io.PrintStream;
 
 import io.restassured.authentication.PreemptiveBasicAuthScheme;
@@ -15,15 +16,14 @@ import io.restassured.specification.ResponseSpecification;
 public class SpecBuilder2 {
 	 static	PrintStream p=null;
 
-	public static  RequestSpecification requestSpecBuilder() throws FileNotFoundException {
+	public static  RequestSpecification requestSpecBuilder() throws IOException {
 	if (p==null) {
 			 p = new PrintStream("log3.txt");
 		}
 		
 		 PreemptiveBasicAuthScheme auth = new PreemptiveBasicAuthScheme();
 		 auth.setUserName("sasik288120@gmail.com");
-		 auth.setPassword("ATATT3xFfGF0vmp9m47nfso2JyFtMydYfGcdIv155DPlhefFJws0T6aMrUTLzVgm1OgiDlvLNjjHX9MVFNZYwa8Uo0zhGWIDrq_59NGv_kMCgZcdI7jRFDRnF-7zQbIBHbJGkkfp5_leXm9QeBSw_F9dp-qHqDKtPrjebD7ginMpOumBvuNaxRQ=AED2C7F3");
-	
+		 auth.setPassword(BaseClass.readExcel("C:\\Users\\sasik\\Desktop\\excel\\Book1.xlsx", 0, 3,1 ));	
 		
 		 RequestSpecification reqSpec = new RequestSpecBuilder()
 				 .addFilter(RequestLoggingFilter.logRequestTo(p))
