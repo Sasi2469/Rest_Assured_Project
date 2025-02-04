@@ -11,7 +11,7 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 
-import static org.stepdefinition.PayLoad.*;
+import static org.desum.PayLoad.*;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -25,8 +25,9 @@ public class StepDefinition {
 
 	RequestSpecification reqSpecifi;
 	Response resSpecifi;
+	Create_Issue issuedet ;
 	static String key;
-
+	
 	@Given("Add request Specification for the request")
 	public void add_request_Specification_for_the_request() throws IOException {
 		reqSpecifi = RestAssured.given().log().all().spec(requestSpecBuilder());
@@ -44,10 +45,7 @@ public class StepDefinition {
 
 	@Then("Validate Response_Body contains self_key as {string}")
 	public void validate_response_body_contains_self_key_as(String expectedKey) {
-		Create_Issue as = resSpecifi.as(Create_Issue.class);
-		key = as.getKey();
-
-		Assert.assertTrue("Expected msg not matched", as.getKey().contains(expectedKey));
+		Assert.assertTrue("Expected msg not matched", issuedet.getKey().contains(expectedKey));
 	}
 
 	@Given("Add payload for the put request")
@@ -66,11 +64,19 @@ public class StepDefinition {
 		}
 
 		if (string.equals("delete")) {
+			
 			resSpecifi = reqSpecifi.when().delete("rest/api/2/issue/" + key);
 		}
 		if (string.equals("post")) {
 			resSpecifi = reqSpecifi.when().post("rest/api/2/issue/");
+			issuedet= resSpecifi.as(Create_Issue.class);
+			 
+				key = issuedet.getKey();
 		}
 	}
 
+	@Given("Add payload for the Post_Request with {string} and {string}")
+	public void add_payload_for_the_Post_Request_with_and(String description, String summary) {
+		reqSpecifi.body(createNewIssue(description, summary));
+	}
 }

@@ -1,4 +1,4 @@
-package org.stepdefinition;
+package org.desum;
 
 public class PayLoad {
 	
@@ -33,5 +33,24 @@ public class PayLoad {
 
 	}
 	
+	public static CreateNewIssue7 createNewIssue(String description, String summary) {
+		
+		Project projects = new Project();
+		projects.setKey("KAN");
+		Issuetype issue = new Issuetype(); 
+		issue.setName("Bug");
+		
+		
+		
+		Fields fiel = new Fields();
+		fiel.setProject(projects);
+		fiel.setIssuetype(issue);
+		fiel.setDescription(description);
+		fiel.setSummary(summary);
+		
+		CreateNewIssue7 postIssue = new CreateNewIssue7();
+		postIssue.setFields(fiel);
+		return postIssue;
+	}
 
 }
