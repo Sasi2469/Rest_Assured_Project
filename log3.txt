@@ -26,34 +26,88 @@ HTTP/1.1 201 Created
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
 Connection: keep-alive
-Date: Mon, 03 Feb 2025 08:05:18 GMT
+Date: Tue, 04 Feb 2025 08:48:53 GMT
 Server: AtlassianEdge
 Timing-Allow-Origin: *
-X-Arequestid: f9bd5f0ae52de6d278de931e6e18ce3d
-Set-Cookie: atlassian.xsrf.token=4db0c973a8a0a7211acb846749ab663749f77c5d_lin; Path=/; SameSite=None; Secure
+X-Arequestid: 00cce2a075534d681f111aa4f6081844
+Set-Cookie: atlassian.xsrf.token=c10c3759bb8587c54a5f8a048288e2b9819888bd_lin; Path=/; SameSite=None; Secure
 X-Aaccountid: 712020%3A929c13a7-6ba1-4081-83c5-d91c7c7c7b78
 Cache-Control: no-cache, no-store, no-transform
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
 X-Xss-Protection: 1; mode=block
-Atl-Traceid: 4441a5275baf45729e63bffa3d4543e7
-Atl-Request-Id: 4441a527-5baf-4572-9e63-bffa3d4543e7
+Atl-Traceid: e23b3b4f4c2f46c9a4f1241a8f35f695
+Atl-Request-Id: e23b3b4f-4c2f-46c9-a4f1-241a8f35f695
 Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
 Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
 Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
 X-Cache: Miss from cloudfront
-Via: 1.1 3e9b3998f63da3eb4c56af402e49224e.cloudfront.net (CloudFront)
+Via: 1.1 b30b764ae4bcc1d810df5a81c45c76ac.cloudfront.net (CloudFront)
 X-Amz-Cf-Pop: MAA51-C2
-X-Amz-Cf-Id: YGxZeq0Kej4ijF4jQU01_5F86k9oos53V3oXm3wYkby1t-NP51b9SA==
-Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=31,cdn-upstream-fbl;dur=1203,atl-edge;dur=1076,atl-edge-internal;dur=220,atl-edge-upstream;dur=857,atl-edge-pop;desc="aws-ap-south-1",cdn-cache-miss,cdn-pop;desc="MAA51-C2",cdn-rid;desc="YGxZeq0Kej4ijF4jQU01_5F86k9oos53V3oXm3wYkby1t-NP51b9SA==",cdn-downstream-fbl;dur=1207
+X-Amz-Cf-Id: 7EYuMZGcFoujJhfVkNIOoNFYZ3-J_TGnwa1bQi5wvzck2LxdJTITfg==
+Server-Timing: cdn-cache-miss,cdn-pop;desc="MAA51-C2",cdn-rid;desc="7EYuMZGcFoujJhfVkNIOoNFYZ3-J_TGnwa1bQi5wvzck2LxdJTITfg==",cdn-downstream-fbl;dur=926,cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=80,cdn-upstream-fbl;dur=924,atl-edge;dur=816,atl-edge-internal;dur=13,atl-edge-upstream;dur=802,atl-edge-pop;desc="aws-ap-south-1"
 
 {
-    "id": "10087",
-    "key": "KAN-83",
-    "self": "https://sasik288120.atlassian.net/rest/api/2/issue/10087"
+    "id": "10127",
+    "key": "KAN-123",
+    "self": "https://sasik288120.atlassian.net/rest/api/2/issue/10127"
+}
+Request method:	POST
+Request URI:	https://sasik288120.atlassian.net/rest/api/2/issue/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "fields": {
+        "project": {
+            "key": "KAN"
+        },
+        "summary": "LoginPage button issue",
+        "description": "Clicking login page button not going to login page",
+        "issuetype": {
+            "name": "Bug"
+        }
+    }
+}
+HTTP/1.1 201 Created
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Tue, 04 Feb 2025 08:48:55 GMT
+Server: AtlassianEdge
+Timing-Allow-Origin: *
+X-Arequestid: 7f20cf2da96c1afa9aa1fcd1bc242a00
+Set-Cookie: atlassian.xsrf.token=0b57274169e2ff01579dfc14002e7bfbab9eaa0f_lin; Path=/; SameSite=None; Secure
+X-Aaccountid: 712020%3A929c13a7-6ba1-4081-83c5-d91c7c7c7b78
+Cache-Control: no-cache, no-store, no-transform
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Atl-Traceid: 00b5e7d23fa84e0eb949ecd72e46b71c
+Atl-Request-Id: 00b5e7d2-3fa8-4e0e-b949-ecd72e46b71c
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+X-Cache: Miss from cloudfront
+Via: 1.1 d3a6e75206bb22a965cd89aa502420d0.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: MAA51-C2
+X-Amz-Cf-Id: i9X9G1OYKex_i4_WLYhTCuJZU_n2PMnomgW685npLMoNm0fRbpVDPQ==
+Server-Timing: cdn-cache-miss,cdn-pop;desc="MAA51-C2",cdn-rid;desc="i9X9G1OYKex_i4_WLYhTCuJZU_n2PMnomgW685npLMoNm0fRbpVDPQ==",cdn-downstream-fbl;dur=925,cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=70,cdn-upstream-fbl;dur=923,atl-edge;dur=828,atl-edge-internal;dur=14,atl-edge-upstream;dur=809,atl-edge-pop;desc="aws-ap-south-1"
+
+{
+    "id": "10128",
+    "key": "KAN-124",
+    "self": "https://sasik288120.atlassian.net/rest/api/2/issue/10128"
 }
 Request method:	PUT
-Request URI:	https://sasik288120.atlassian.net/rest/api/2/issue/KAN-83
+Request URI:	https://sasik288120.atlassian.net/rest/api/2/issue/KAN-124
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -73,28 +127,82 @@ Body:
 HTTP/1.1 204 No Content
 Content-Type: application/json;charset=UTF-8
 Connection: keep-alive
-Date: Mon, 03 Feb 2025 08:05:21 GMT
+Date: Tue, 04 Feb 2025 08:48:56 GMT
 Server: AtlassianEdge
 Timing-Allow-Origin: *
-X-Arequestid: 5c7c38c8f5d9da62946cd0cf2eed3e3c
-Set-Cookie: atlassian.xsrf.token=69ba1f5363d2e69f5972b7383ab0fd7dfd65c763_lin; Path=/; SameSite=None; Secure
+X-Arequestid: 0f418b7bba11be19f90073641d8bd628
+Set-Cookie: atlassian.xsrf.token=1e968761e9d36e97a829898446ced92ce2e7dca9_lin; Path=/; SameSite=None; Secure
 X-Aaccountid: 712020%3A929c13a7-6ba1-4081-83c5-d91c7c7c7b78
 Cache-Control: no-cache, no-store, no-transform
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
 X-Xss-Protection: 1; mode=block
-Atl-Traceid: 5342810335644a458bfde701bd4bc4df
-Atl-Request-Id: 53428103-3564-4a45-8bfd-e701bd4bc4df
+Atl-Traceid: f814193758814e3f8af39bc73df2e42b
+Atl-Request-Id: f8141937-5881-4e3f-8af3-9bc73df2e42b
 Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
 Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
 Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
 X-Cache: Miss from cloudfront
-Via: 1.1 de97b288365d1a41329c86b524f817e2.cloudfront.net (CloudFront)
+Via: 1.1 58957a4b61f53236aa226f329eb22392.cloudfront.net (CloudFront)
 X-Amz-Cf-Pop: MAA51-C2
-X-Amz-Cf-Id: 4ouNpoBnCUIkEfLHz4v2ZCXZ8MUQ38U3xzKDFNBM5NhZJsnebQN4BQ==
-Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=24,cdn-upstream-fbl;dur=623,atl-edge;dur=524,atl-edge-internal;dur=13,atl-edge-upstream;dur=511,atl-edge-pop;desc="aws-ap-south-1",cdn-cache-miss,cdn-pop;desc="MAA51-C2",cdn-rid;desc="4ouNpoBnCUIkEfLHz4v2ZCXZ8MUQ38U3xzKDFNBM5NhZJsnebQN4BQ==",cdn-downstream-fbl;dur=627
+X-Amz-Cf-Id: pWwUaX-B73aUh7CYqK6PCSDV9Ii4zdtJ4V5PfUmrugVIZSSQems6Bg==
+Server-Timing: cdn-cache-miss,cdn-pop;desc="MAA51-C2",cdn-rid;desc="pWwUaX-B73aUh7CYqK6PCSDV9Ii4zdtJ4V5PfUmrugVIZSSQems6Bg==",cdn-downstream-fbl;dur=605,cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=83,cdn-upstream-fbl;dur=603,atl-edge;dur=491,atl-edge-internal;dur=15,atl-edge-upstream;dur=477,atl-edge-pop;desc="aws-ap-south-1"
+Request method:	POST
+Request URI:	https://sasik288120.atlassian.net/rest/api/2/issue/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "fields": {
+        "project": {
+            "key": "KAN"
+        },
+        "summary": "LoginPage button issue",
+        "description": "Clicking login page button not going to login page",
+        "issuetype": {
+            "name": "Bug"
+        }
+    }
+}
+HTTP/1.1 201 Created
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Tue, 04 Feb 2025 08:48:57 GMT
+Server: AtlassianEdge
+Timing-Allow-Origin: *
+X-Arequestid: e19b43d5cadc7a1bca06d648a2e26f1e
+Set-Cookie: atlassian.xsrf.token=648be4e95eab3f476e1970703a4f24041e6ca803_lin; Path=/; SameSite=None; Secure
+X-Aaccountid: 712020%3A929c13a7-6ba1-4081-83c5-d91c7c7c7b78
+Cache-Control: no-cache, no-store, no-transform
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Atl-Traceid: e7b3fc5976fb49a9a808b20e1f37873f
+Atl-Request-Id: e7b3fc59-76fb-49a9-a808-b20e1f37873f
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+X-Cache: Miss from cloudfront
+Via: 1.1 6cf3af2e109d98f9560bab7a34d3d10e.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: MAA51-C2
+X-Amz-Cf-Id: zJoEUN2US13Pq8XW-3FinT1tM7WSoaHcxK_j5Z7bY628qV7jTEfdPQ==
+Server-Timing: cdn-cache-miss,cdn-pop;desc="MAA51-C2",cdn-rid;desc="zJoEUN2US13Pq8XW-3FinT1tM7WSoaHcxK_j5Z7bY628qV7jTEfdPQ==",cdn-downstream-fbl;dur=968,cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=62,cdn-upstream-fbl;dur=966,atl-edge;dur=882,atl-edge-internal;dur=12,atl-edge-upstream;dur=870,atl-edge-pop;desc="aws-ap-south-1"
+
+{
+    "id": "10129",
+    "key": "KAN-125",
+    "self": "https://sasik288120.atlassian.net/rest/api/2/issue/10129"
+}
 Request method:	GET
-Request URI:	https://sasik288120.atlassian.net/rest/api/2/issue/KAN-83
+Request URI:	https://sasik288120.atlassian.net/rest/api/2/issue/KAN-125
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -109,35 +217,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
 Connection: keep-alive
-Date: Mon, 03 Feb 2025 08:05:22 GMT
+Date: Tue, 04 Feb 2025 08:48:58 GMT
 Server: AtlassianEdge
 Timing-Allow-Origin: *
-X-Arequestid: c31e512b2f245c07aa3730ab81bdf122
-Set-Cookie: atlassian.xsrf.token=7248821a5a24eeef966241d110282e7bdb32439b_lin; Path=/; SameSite=None; Secure
+X-Arequestid: b3fe3bf866096a5add6b8193963be98e
+Set-Cookie: atlassian.xsrf.token=7f1d6afaa62dd34e26cf84391c45072aa157f9b4_lin; Path=/; SameSite=None; Secure
 X-Aaccountid: 712020%3A929c13a7-6ba1-4081-83c5-d91c7c7c7b78
 Cache-Control: no-cache, no-store, no-transform
 Vary: Accept-Encoding
 Content-Encoding: gzip
 X-Content-Type-Options: nosniff
 X-Xss-Protection: 1; mode=block
-Atl-Traceid: bb01b7deb5b34bc5a83402678846b702
-Atl-Request-Id: bb01b7de-b5b3-4bc5-a834-02678846b702
+Atl-Traceid: e425e5e40726481da944f932248cf097
+Atl-Request-Id: e425e5e4-0726-481d-a944-f932248cf097
 Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
 Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
 Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
 X-Cache: Miss from cloudfront
-Via: 1.1 679e2d9de234c68f799a62d542db3974.cloudfront.net (CloudFront)
+Via: 1.1 700b42bdce7a61786b48963819fc092a.cloudfront.net (CloudFront)
 X-Amz-Cf-Pop: MAA51-C2
-X-Amz-Cf-Id: _zb85Tzucl0BqFFqWSkzp0MOcJnSzB-Sax4CjV6nOXzG4umv1HY37A==
-Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=28,cdn-upstream-fbl;dur=622,atl-edge;dur=499,atl-edge-internal;dur=16,atl-edge-upstream;dur=485,atl-edge-pop;desc="aws-ap-south-1",cdn-cache-miss,cdn-pop;desc="MAA51-C2",cdn-rid;desc="_zb85Tzucl0BqFFqWSkzp0MOcJnSzB-Sax4CjV6nOXzG4umv1HY37A==",cdn-downstream-fbl;dur=625
+X-Amz-Cf-Id: 39IWVDzMdWe-zsmZvAEAI-_kph-uoyvfF2M55qYVp0dRR1NylT23YA==
+Server-Timing: cdn-cache-miss,cdn-pop;desc="MAA51-C2",cdn-rid;desc="39IWVDzMdWe-zsmZvAEAI-_kph-uoyvfF2M55qYVp0dRR1NylT23YA==",cdn-downstream-fbl;dur=458,cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=75,cdn-upstream-fbl;dur=457,atl-edge;dur=355,atl-edge-internal;dur=15,atl-edge-upstream;dur=340,atl-edge-pop;desc="aws-ap-south-1"
 
 {
     "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations,customfield_10010.requestTypePractice",
-    "id": "10087",
-    "self": "https://sasik288120.atlassian.net/rest/api/2/issue/10087",
-    "key": "KAN-83",
+    "id": "10129",
+    "self": "https://sasik288120.atlassian.net/rest/api/2/issue/10129",
+    "key": "KAN-125",
     "fields": {
-        "statuscategorychangedate": "2025-02-03T13:35:18.377+0530",
+        "statuscategorychangedate": "2025-02-04T14:18:57.612+0530",
         "issuetype": {
             "self": "https://sasik288120.atlassian.net/rest/api/2/issuetype/10015",
             "id": "10015",
@@ -169,8 +277,8 @@ Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstrea
         "fixVersions": [
             
         ],
-        "aggregatetimespent": null,
         "customfield_10034": null,
+        "aggregatetimespent": null,
         "resolution": null,
         "customfield_10035": null,
         "customfield_10036": null,
@@ -180,19 +288,19 @@ Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstrea
         "customfield_10029": null,
         "resolutiondate": null,
         "workratio": -1,
-        "watches": {
-            "self": "https://sasik288120.atlassian.net/rest/api/2/issue/KAN-83/watchers",
-            "watchCount": 1,
-            "isWatching": true
-        },
         "issuerestriction": {
             "issuerestrictions": {
                 
             },
             "shouldDisplay": true
         },
+        "watches": {
+            "self": "https://sasik288120.atlassian.net/rest/api/2/issue/KAN-125/watchers",
+            "watchCount": 1,
+            "isWatching": true
+        },
         "lastViewed": null,
-        "created": "2025-02-03T13:35:18.015+0530",
+        "created": "2025-02-04T14:18:57.272+0530",
         "customfield_10020": null,
         "customfield_10021": null,
         "customfield_10022": null,
@@ -203,6 +311,7 @@ Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstrea
             "id": "3"
         },
         "customfield_10023": null,
+        "customfield_10024": null,
         "labels": [
             
         ],
@@ -217,7 +326,7 @@ Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstrea
                 "message": "To set an epic as the parent, use the epic link instead"
             }
         },
-        "customfield_10019": "0|i000an:",
+        "customfield_10019": "0|i000i7:",
         "timeestimate": null,
         "aggregatetimeoriginalestimate": null,
         "versions": [
@@ -227,7 +336,7 @@ Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstrea
             
         ],
         "assignee": null,
-        "updated": "2025-02-03T13:35:20.835+0530",
+        "updated": "2025-02-04T14:18:57.333+0530",
         "status": {
             "self": "https://sasik288120.atlassian.net/rest/api/2/status/10000",
             "description": "",
@@ -249,26 +358,26 @@ Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstrea
         "timeoriginalestimate": null,
         "customfield_10051": null,
         "customfield_10052": null,
-        "description": "Description",
+        "description": "Clicking login page button not going to login page",
         "customfield_10053": null,
         "customfield_10010": null,
         "customfield_10014": null,
-        "customfield_10015": null,
         "timetracking": {
             
         },
-        "customfield_10005": null,
+        "customfield_10015": null,
         "customfield_10049": null,
+        "customfield_10005": null,
         "customfield_10006": null,
-        "customfield_10007": null,
         "security": null,
+        "customfield_10007": null,
         "customfield_10008": null,
         "customfield_10009": null,
         "attachment": [
             
         ],
         "aggregatetimeestimate": null,
-        "summary": "creatig bug in login",
+        "summary": "LoginPage button issue",
         "creator": {
             "self": "https://sasik288120.atlassian.net/rest/api/2/user?accountId=712020%3A929c13a7-6ba1-4081-83c5-d91c7c7c7b78",
             "accountId": "712020:929c13a7-6ba1-4081-83c5-d91c7c7c7b78",
@@ -290,6 +399,7 @@ Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstrea
         "customfield_10040": null,
         "customfield_10041": null,
         "customfield_10042": null,
+        "customfield_10043": null,
         "reporter": {
             "self": "https://sasik288120.atlassian.net/rest/api/2/user?accountId=712020%3A929c13a7-6ba1-4081-83c5-d91c7c7c7b78",
             "accountId": "712020:929c13a7-6ba1-4081-83c5-d91c7c7c7b78",
@@ -305,20 +415,19 @@ Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstrea
             "timeZone": "Asia/Calcutta",
             "accountType": "atlassian"
         },
-        "customfield_10043": null,
+        "customfield_10044": null,
         "aggregateprogress": {
             "progress": 0,
             "total": 0
         },
-        "customfield_10044": null,
         "customfield_10045": null,
         "customfield_10001": null,
+        "customfield_10046": null,
         "customfield_10002": [
             
         ],
-        "customfield_10046": null,
-        "customfield_10003": null,
         "customfield_10047": null,
+        "customfield_10003": null,
         "customfield_10004": null,
         "customfield_10048": [
             
@@ -333,19 +442,19 @@ Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstrea
             "progress": 0,
             "total": 0
         },
+        "votes": {
+            "self": "https://sasik288120.atlassian.net/rest/api/2/issue/KAN-125/votes",
+            "votes": 0,
+            "hasVoted": false
+        },
         "comment": {
             "comments": [
                 
             ],
-            "self": "https://sasik288120.atlassian.net/rest/api/2/issue/10087/comment",
+            "self": "https://sasik288120.atlassian.net/rest/api/2/issue/10129/comment",
             "maxResults": 0,
             "total": 0,
             "startAt": 0
-        },
-        "votes": {
-            "self": "https://sasik288120.atlassian.net/rest/api/2/issue/KAN-83/votes",
-            "votes": 0,
-            "hasVoted": false
         },
         "worklog": {
             "startAt": 0,
@@ -357,8 +466,62 @@ Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstrea
         }
     }
 }
+Request method:	POST
+Request URI:	https://sasik288120.atlassian.net/rest/api/2/issue/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "fields": {
+        "project": {
+            "key": "KAN"
+        },
+        "summary": "LoginPage button issue",
+        "description": "Clicking login page button not going to login page",
+        "issuetype": {
+            "name": "Bug"
+        }
+    }
+}
+HTTP/1.1 201 Created
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Tue, 04 Feb 2025 08:48:59 GMT
+Server: AtlassianEdge
+Timing-Allow-Origin: *
+X-Arequestid: d222da62be3755ee562d733cbe2aca84
+Set-Cookie: atlassian.xsrf.token=627204cbefb723d7c39d353621501cf64055f750_lin; Path=/; SameSite=None; Secure
+X-Aaccountid: 712020%3A929c13a7-6ba1-4081-83c5-d91c7c7c7b78
+Cache-Control: no-cache, no-store, no-transform
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Atl-Traceid: 7cbf4146e21442f5a4f5608f7c0a2bab
+Atl-Request-Id: 7cbf4146-e214-42f5-a4f5-608f7c0a2bab
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+X-Cache: Miss from cloudfront
+Via: 1.1 58957a4b61f53236aa226f329eb22392.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: MAA51-C2
+X-Amz-Cf-Id: FRM4FBW6VD7CXf5jy_DqE3yBezo6WR1dXdPRIibbUXMkjm_WaLDogg==
+Server-Timing: cdn-cache-miss,cdn-pop;desc="MAA51-C2",cdn-rid;desc="FRM4FBW6VD7CXf5jy_DqE3yBezo6WR1dXdPRIibbUXMkjm_WaLDogg==",cdn-downstream-fbl;dur=1018,cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=63,cdn-upstream-fbl;dur=1016,atl-edge;dur=931,atl-edge-internal;dur=137,atl-edge-upstream;dur=795,atl-edge-pop;desc="aws-ap-south-1"
+
+{
+    "id": "10130",
+    "key": "KAN-126",
+    "self": "https://sasik288120.atlassian.net/rest/api/2/issue/10130"
+}
 Request method:	DELETE
-Request URI:	https://sasik288120.atlassian.net/rest/api/2/issue/KAN-83
+Request URI:	https://sasik288120.atlassian.net/rest/api/2/issue/KAN-126
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -372,23 +535,185 @@ Body:			<none>
 HTTP/1.1 204 No Content
 Content-Type: application/json;charset=UTF-8
 Connection: keep-alive
-Date: Mon, 03 Feb 2025 08:05:24 GMT
+Date: Tue, 04 Feb 2025 08:49:00 GMT
 Server: AtlassianEdge
 Timing-Allow-Origin: *
-X-Arequestid: f04e5678b5f7cb74011476b19eb94965
-Set-Cookie: atlassian.xsrf.token=7600cd2d05bea92fd08948d667182665bc3d9f51_lin; Path=/; SameSite=None; Secure
+X-Arequestid: 05e06c5428cfabc69e76e30101a48a3b
+Set-Cookie: atlassian.xsrf.token=207654c073f718703457835cb6cc2d259f80dbac_lin; Path=/; SameSite=None; Secure
 X-Aaccountid: 712020%3A929c13a7-6ba1-4081-83c5-d91c7c7c7b78
 Cache-Control: no-cache, no-store, no-transform
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
 X-Xss-Protection: 1; mode=block
-Atl-Traceid: 11f4d55faa7d420e95abf62a193ac70f
-Atl-Request-Id: 11f4d55f-aa7d-420e-95ab-f62a193ac70f
+Atl-Traceid: 619e7d4e88fc4b7a81ed1e6f82b8f017
+Atl-Request-Id: 619e7d4e-88fc-4b7a-81ed-1e6f82b8f017
 Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
 Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
 Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
 X-Cache: Miss from cloudfront
-Via: 1.1 58957a4b61f53236aa226f329eb22392.cloudfront.net (CloudFront)
+Via: 1.1 b5f0637148193b3e4095ac179d6439f8.cloudfront.net (CloudFront)
 X-Amz-Cf-Pop: MAA51-C2
-X-Amz-Cf-Id: eX-oZ1wUgscYu54piyu_puNAUDOqYlfh2awTXlnB9cvBvKaGxh17rg==
-Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=29,cdn-upstream-fbl;dur=896,atl-edge;dur=777,atl-edge-internal;dur=16,atl-edge-upstream;dur=762,atl-edge-pop;desc="aws-ap-south-1",cdn-cache-miss,cdn-pop;desc="MAA51-C2",cdn-rid;desc="eX-oZ1wUgscYu54piyu_puNAUDOqYlfh2awTXlnB9cvBvKaGxh17rg==",cdn-downstream-fbl;dur=902
+X-Amz-Cf-Id: B_XozmSF49nVsQj22bOWqSVBmpIyElWrTi-UwAo63ooPhlOg2eeHqw==
+Server-Timing: cdn-cache-miss,cdn-pop;desc="MAA51-C2",cdn-rid;desc="B_XozmSF49nVsQj22bOWqSVBmpIyElWrTi-UwAo63ooPhlOg2eeHqw==",cdn-downstream-fbl;dur=769,cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=70,cdn-upstream-fbl;dur=767,atl-edge;dur=671,atl-edge-internal;dur=16,atl-edge-upstream;dur=655,atl-edge-pop;desc="aws-ap-south-1"
+Request method:	POST
+Request URI:	https://sasik288120.atlassian.net/rest/api/2/issue/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "fields": {
+        "summary": "LoginPage button issue1",
+        "description": "Clicking login page button not going to login page1",
+        "project": {
+            "key": "KAN"
+        },
+        "issuetype": {
+            "name": "Bug"
+        }
+    }
+}
+HTTP/1.1 201 Created
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Tue, 04 Feb 2025 08:49:01 GMT
+Server: AtlassianEdge
+Timing-Allow-Origin: *
+X-Arequestid: f859b19243f1baea71ae9a3ac64f20cb
+Set-Cookie: atlassian.xsrf.token=31bb30b1bfcd6e6a5f214fb7b703f799390d5b1f_lin; Path=/; SameSite=None; Secure
+X-Aaccountid: 712020%3A929c13a7-6ba1-4081-83c5-d91c7c7c7b78
+Cache-Control: no-cache, no-store, no-transform
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Atl-Traceid: 4766920df3114e9eb254340a547a2247
+Atl-Request-Id: 4766920d-f311-4e9e-b254-340a547a2247
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+X-Cache: Miss from cloudfront
+Via: 1.1 d27daad3d2f9a5135fb441b5e8143a34.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: MAA51-C2
+X-Amz-Cf-Id: qen197teWIN9VCXCTxJDmXmIzZuwjqs3wOp7lq0einaDfXzueeRypw==
+Server-Timing: cdn-cache-miss,cdn-pop;desc="MAA51-C2",cdn-rid;desc="qen197teWIN9VCXCTxJDmXmIzZuwjqs3wOp7lq0einaDfXzueeRypw==",cdn-downstream-fbl;dur=969,cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=82,cdn-upstream-fbl;dur=968,atl-edge;dur=857,atl-edge-internal;dur=15,atl-edge-upstream;dur=843,atl-edge-pop;desc="aws-ap-south-1"
+
+{
+    "id": "10131",
+    "key": "KAN-127",
+    "self": "https://sasik288120.atlassian.net/rest/api/2/issue/10131"
+}
+Request method:	POST
+Request URI:	https://sasik288120.atlassian.net/rest/api/2/issue/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "fields": {
+        "summary": "LoginPage button issue2",
+        "description": "Clicking login page button not going to login page2",
+        "project": {
+            "key": "KAN"
+        },
+        "issuetype": {
+            "name": "Bug"
+        }
+    }
+}
+HTTP/1.1 201 Created
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Tue, 04 Feb 2025 08:49:02 GMT
+Server: AtlassianEdge
+Timing-Allow-Origin: *
+X-Arequestid: 12ef2909b3ddcf8aaf74a8cee46f10a5
+Set-Cookie: atlassian.xsrf.token=7c02c8a64582939fe747ae4dff91c170b6d4dbe5_lin; Path=/; SameSite=None; Secure
+X-Aaccountid: 712020%3A929c13a7-6ba1-4081-83c5-d91c7c7c7b78
+Cache-Control: no-cache, no-store, no-transform
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Atl-Traceid: 56f2ccc873614db293adfbebd1422c26
+Atl-Request-Id: 56f2ccc8-7361-4db2-93ad-fbebd1422c26
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+X-Cache: Miss from cloudfront
+Via: 1.1 917650e9d920653c986eb724dd177c38.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: MAA51-C2
+X-Amz-Cf-Id: yEKUEh_37cwjQiBnVj72wlckBzKdJlyJfm32sJVgDRaakjJ92lc8kA==
+Server-Timing: cdn-cache-miss,cdn-pop;desc="MAA51-C2",cdn-rid;desc="yEKUEh_37cwjQiBnVj72wlckBzKdJlyJfm32sJVgDRaakjJ92lc8kA==",cdn-downstream-fbl;dur=793,cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=71,cdn-upstream-fbl;dur=791,atl-edge;dur=695,atl-edge-internal;dur=15,atl-edge-upstream;dur=680,atl-edge-pop;desc="aws-ap-south-1"
+
+{
+    "id": "10132",
+    "key": "KAN-128",
+    "self": "https://sasik288120.atlassian.net/rest/api/2/issue/10132"
+}
+Request method:	POST
+Request URI:	https://sasik288120.atlassian.net/rest/api/2/issue/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "fields": {
+        "summary": "LoginPage button issue3",
+        "description": "Clicking login page button not going to login page3",
+        "project": {
+            "key": "KAN"
+        },
+        "issuetype": {
+            "name": "Bug"
+        }
+    }
+}
+HTTP/1.1 201 Created
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Tue, 04 Feb 2025 08:49:03 GMT
+Server: AtlassianEdge
+Timing-Allow-Origin: *
+X-Arequestid: 5ef1e5fdc60f8d272fd1e7cf0d8d15a3
+Set-Cookie: atlassian.xsrf.token=d1f7b16619ee68ee2c9e37d883369c01bbb95fa7_lin; Path=/; SameSite=None; Secure
+X-Aaccountid: 712020%3A929c13a7-6ba1-4081-83c5-d91c7c7c7b78
+Cache-Control: no-cache, no-store, no-transform
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Atl-Traceid: d81d5ade688c4bc2a004d9b8e7d4d37f
+Atl-Request-Id: d81d5ade-688c-4bc2-a004-d9b8e7d4d37f
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+X-Cache: Miss from cloudfront
+Via: 1.1 db5fd770a9bc66e615fd2a7043a41d28.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: MAA51-C2
+X-Amz-Cf-Id: mYGTTaEa6uM9Nzu1s8E7EaKzDyUNuZ5o1VyzJsq2mNJYcT1QeIA3PA==
+Server-Timing: cdn-cache-miss,cdn-pop;desc="MAA51-C2",cdn-rid;desc="mYGTTaEa6uM9Nzu1s8E7EaKzDyUNuZ5o1VyzJsq2mNJYcT1QeIA3PA==",cdn-downstream-fbl;dur=860,cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=92,cdn-upstream-fbl;dur=857,atl-edge;dur=733,atl-edge-internal;dur=13,atl-edge-upstream;dur=720,atl-edge-pop;desc="aws-ap-south-1"
+
+{
+    "id": "10133",
+    "key": "KAN-129",
+    "self": "https://sasik288120.atlassian.net/rest/api/2/issue/10133"
+}
