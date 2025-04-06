@@ -1,407 +1,391 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="4" name="org.stepdefinition.TestRunner" time="33.167" errors="0" skipped="0">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.stepdefinition.TestRunner" time="15.004" tests="2" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
-    <property name="java.vm.version" value="25.202-b08"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\sasik\eclipse-workspace\Rest_Assured_Project"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="path.separator" value=";"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="user.script" value=""/>
-    <property name="user.country" value="IN"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\sasik\eclipse-workspace\Rest_Assured_Project"/>
-    <property name="java.runtime.version" value="1.8.0_202-b08"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\sasik\AppData\Local\Temp\"/>
-    <property name="line.separator" value="
-"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.variant" value=""/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\sasik\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6825874225727035590.tmp"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_202/bin/server;C:/Program Files/Java/jre1.8.0_202/bin;C:/Program Files/Java/jre1.8.0_202/lib/amd64;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-11\bin;C:\Users\sasik\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files\Git\cmd;C:\Users\sasik\AppData\Local\Microsoft\WindowsApps;;C:\Users\sasik\Downloads\eclipse-committers-oxygen-3a-win32-x86_64\eclipse;;."/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.class.version" value="52.0"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.0"/>
-    <property name="user.home" value="C:\Users\sasik"/>
-    <property name="user.timezone" value="Asia/Calcutta"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="java.specification.version" value="1.8"/>
-    <property name="file.encoding" value="Cp1252"/>
-    <property name="user.name" value="sasik"/>
-    <property name="java.class.path" value="C:\Users\sasik\Downloads\eclipse-committers-oxygen-3a-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.8.3.20180227-2135\jars\plexus-classworlds-2.5.2.jar"/>
-    <property name="java.vm.specification.version" value="1.8"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_202\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.language" value="en"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_202"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Users\sasik\eclipse-workspace\Rest_Assured_Project\EMBEDDED"/>
-    <property name="file.separator" value="\"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.desktop" value="windows"/>
+    <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\sasik\eclipse-workspace\Rest_Assured_Project\target\test-classes;C:\Users\sasik\eclipse-workspace\Rest_Assured_Project\target\classes;C:\Users\sasik\.m2\repository\io\rest-assured\rest-assured\4.3.0\rest-assured-4.3.0.jar;C:\Users\sasik\.m2\repository\org\codehaus\groovy\groovy\3.0.2\groovy-3.0.2.jar;C:\Users\sasik\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.2\groovy-xml-3.0.2.jar;C:\Users\sasik\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\sasik\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\sasik\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sasik\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\sasik\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\sasik\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\sasik\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\sasik\.m2\repository\io\rest-assured\json-path\4.3.0\json-path-4.3.0.jar;C:\Users\sasik\.m2\repository\org\codehaus\groovy\groovy-json\3.0.2\groovy-json-3.0.2.jar;C:\Users\sasik\.m2\repository\io\rest-assured\rest-assured-common\4.3.0\rest-assured-common-4.3.0.jar;C:\Users\sasik\.m2\repository\io\rest-assured\xml-path\4.3.0\xml-path-4.3.0.jar;C:\Users\sasik\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.2\jakarta.xml.bind-api-2.3.2.jar;C:\Users\sasik\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.1\jakarta.activation-api-1.2.1.jar;C:\Users\sasik\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.3.0.1\jaxb-osgi-2.3.0.1.jar;C:\Users\sasik\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\sasik\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\sasik\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.2\jackson-databind-2.18.2.jar;C:\Users\sasik\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.2\jackson-annotations-2.18.2.jar;C:\Users\sasik\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.2\jackson-core-2.18.2.jar;C:\Users\sasik\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\sasik\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\sasik\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\sasik\.m2\repository\io\cucumber\cucumber-java\4.8.0\cucumber-java-4.8.0.jar;C:\Users\sasik\.m2\repository\io\cucumber\cucumber-core\4.8.0\cucumber-core-4.8.0.jar;C:\Users\sasik\.m2\repository\io\cucumber\gherkin\5.1.0\gherkin-5.1.0.jar;C:\Users\sasik\.m2\repository\io\cucumber\tag-expressions\1.1.1\tag-expressions-1.1.1.jar;C:\Users\sasik\.m2\repository\io\cucumber\cucumber-expressions\7.0.2\cucumber-expressions-7.0.2.jar;C:\Users\sasik\.m2\repository\io\cucumber\datatable\1.1.14\datatable-1.1.14.jar;C:\Users\sasik\.m2\repository\io\cucumber\datatable-dependencies\1.1.14\datatable-dependencies-1.1.14.jar;C:\Users\sasik\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\sasik\.m2\repository\org\apache\poi\poi-ooxml\3.8\poi-ooxml-3.8.jar;C:\Users\sasik\.m2\repository\org\apache\poi\poi\3.8\poi-3.8.jar;C:\Users\sasik\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.8\poi-ooxml-schemas-3.8.jar;C:\Users\sasik\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\sasik\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\sasik\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\sasik\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\sasik\.m2\repository\io\cucumber\cucumber-junit\4.8.0\cucumber-junit-4.8.0.jar;C:\Users\sasik\.m2\repository\net\masterthought\cucumber-reporting\5.8.1\cucumber-reporting-5.8.1.jar;C:\Users\sasik\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.17.0\jackson-datatype-jsr310-2.17.0.jar;C:\Users\sasik\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\sasik\.m2\repository\joda-time\joda-time\2.12.7\joda-time-2.12.7.jar;C:\Users\sasik\.m2\repository\org\apache\commons\commons-configuration2\2.10.1\commons-configuration2-2.10.1.jar;C:\Users\sasik\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\sasik\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\sasik\.m2\repository\org\apache\commons\commons-text\1.11.0\commons-text-1.11.0.jar;C:\Users\sasik\.m2\repository\org\jsoup\jsoup\1.17.2\jsoup-1.17.2.jar;C:\Users\sasik\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20220608.1\owasp-java-html-sanitizer-20220608.1.jar;C:\Users\sasik\.m2\repository\com\google\guava\guava\33.1.0-jre\guava-33.1.0-jre.jar;C:\Users\sasik\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\sasik\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\sasik\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\sasik\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\sasik\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\sasik\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\sasik\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\sasik\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.13\jcl-over-slf4j-2.0.13.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\sasik\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\sasik\AppData\Local\Temp\surefire2878915015121221429\surefirebooter-20250406094513958_3.jar C:\Users\sasik\AppData\Local\Temp\surefire2878915015121221429 2025-04-06T09-45-13_705-jvmRun1 surefire-20250406094513958_1tmp surefire_0-20250406094513958_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\sasik\eclipse-workspace\Rest_Assured_Project\target\test-classes;C:\Users\sasik\eclipse-workspace\Rest_Assured_Project\target\classes;C:\Users\sasik\.m2\repository\io\rest-assured\rest-assured\4.3.0\rest-assured-4.3.0.jar;C:\Users\sasik\.m2\repository\org\codehaus\groovy\groovy\3.0.2\groovy-3.0.2.jar;C:\Users\sasik\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.2\groovy-xml-3.0.2.jar;C:\Users\sasik\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\sasik\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\sasik\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sasik\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\sasik\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\sasik\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\sasik\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\sasik\.m2\repository\io\rest-assured\json-path\4.3.0\json-path-4.3.0.jar;C:\Users\sasik\.m2\repository\org\codehaus\groovy\groovy-json\3.0.2\groovy-json-3.0.2.jar;C:\Users\sasik\.m2\repository\io\rest-assured\rest-assured-common\4.3.0\rest-assured-common-4.3.0.jar;C:\Users\sasik\.m2\repository\io\rest-assured\xml-path\4.3.0\xml-path-4.3.0.jar;C:\Users\sasik\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.2\jakarta.xml.bind-api-2.3.2.jar;C:\Users\sasik\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.1\jakarta.activation-api-1.2.1.jar;C:\Users\sasik\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.3.0.1\jaxb-osgi-2.3.0.1.jar;C:\Users\sasik\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\sasik\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\sasik\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.2\jackson-databind-2.18.2.jar;C:\Users\sasik\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.2\jackson-annotations-2.18.2.jar;C:\Users\sasik\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.2\jackson-core-2.18.2.jar;C:\Users\sasik\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\sasik\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\sasik\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\sasik\.m2\repository\io\cucumber\cucumber-java\4.8.0\cucumber-java-4.8.0.jar;C:\Users\sasik\.m2\repository\io\cucumber\cucumber-core\4.8.0\cucumber-core-4.8.0.jar;C:\Users\sasik\.m2\repository\io\cucumber\gherkin\5.1.0\gherkin-5.1.0.jar;C:\Users\sasik\.m2\repository\io\cucumber\tag-expressions\1.1.1\tag-expressions-1.1.1.jar;C:\Users\sasik\.m2\repository\io\cucumber\cucumber-expressions\7.0.2\cucumber-expressions-7.0.2.jar;C:\Users\sasik\.m2\repository\io\cucumber\datatable\1.1.14\datatable-1.1.14.jar;C:\Users\sasik\.m2\repository\io\cucumber\datatable-dependencies\1.1.14\datatable-dependencies-1.1.14.jar;C:\Users\sasik\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\sasik\.m2\repository\org\apache\poi\poi-ooxml\3.8\poi-ooxml-3.8.jar;C:\Users\sasik\.m2\repository\org\apache\poi\poi\3.8\poi-3.8.jar;C:\Users\sasik\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.8\poi-ooxml-schemas-3.8.jar;C:\Users\sasik\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\sasik\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\sasik\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\sasik\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\sasik\.m2\repository\io\cucumber\cucumber-junit\4.8.0\cucumber-junit-4.8.0.jar;C:\Users\sasik\.m2\repository\net\masterthought\cucumber-reporting\5.8.1\cucumber-reporting-5.8.1.jar;C:\Users\sasik\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.17.0\jackson-datatype-jsr310-2.17.0.jar;C:\Users\sasik\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\sasik\.m2\repository\joda-time\joda-time\2.12.7\joda-time-2.12.7.jar;C:\Users\sasik\.m2\repository\org\apache\commons\commons-configuration2\2.10.1\commons-configuration2-2.10.1.jar;C:\Users\sasik\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\sasik\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\sasik\.m2\repository\org\apache\commons\commons-text\1.11.0\commons-text-1.11.0.jar;C:\Users\sasik\.m2\repository\org\jsoup\jsoup\1.17.2\jsoup-1.17.2.jar;C:\Users\sasik\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20220608.1\owasp-java-html-sanitizer-20220608.1.jar;C:\Users\sasik\.m2\repository\com\google\guava\guava\33.1.0-jre\guava-33.1.0-jre.jar;C:\Users\sasik\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\sasik\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\sasik\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\sasik\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\sasik\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\sasik\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\sasik\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\sasik\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.13\jcl-over-slf4j-2.0.13.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\sasik"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="C:\Users\sasik\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\sasik\eclipse-workspace\Rest_Assured_Project"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\sasik\AppData\Local\Temp\surefire2878915015121221429\surefirebooter-20250406094513958_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.6+7-LTS"/>
+    <property name="user.name" value="sasik"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.6+7"/>
+    <property name="localRepository" value="C:\Users\sasik\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\sasik\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.6"/>
+    <property name="user.dir" value="C:\Users\sasik\eclipse-workspace\Rest_Assured_Project"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\sasik\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/sasik/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529/jre/bin/server;C:/Users/sasik/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529/jre/bin;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-11\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\sasik\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files\Git\cmd;C:\Users\sasik\AppData\Local\Microsoft\WindowsApps;;C:\Users\sasik\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.6+7-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase classname="To validate the Jira_Api" name="To validate create issue in Jira_Api using Post_Request method" time="30.5">
-    <failure message="1 expectation failed.
-Expected status code &lt;201&gt; but was &lt;401&gt;.
-" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;201&gt; but was &lt;401&gt;.
+  <testcase name="To validate the retrieve issue in Jira_Api using Get_Request_Method" classname="To validate the Jira_Api" time="8.354">
+    <system-out><![CDATA[Feature: To validate the Jira_Api
 
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
-	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
-	at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:92)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:288)
-	at io.restassured.internal.ValidatableResponseImpl.super$2$spec(ValidatableResponseImpl.groovy)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
-	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
-	at io.restassured.internal.ValidatableResponseImpl.spec(ValidatableResponseImpl.groovy:76)
-	at io.restassured.internal.ValidatableResponseImpl.spec(ValidatableResponseImpl.groovy)
-	at org.stepdefinition.StepDefinition.validate_the_response_status_code_for_the_request_as(StepDefinition.java:41)
-	at ✽.Validate the Response_status_code for the Request as 201(file:src/test/resources/Feature/JiraApi.feature:7)
-</failure>
-    <system-out>Request method:	POST
+  Background:                                       &amp#27;[90m# src/test/resources/Feature/JiraApi.feature:2&amp#27;[0m
+Request method:	POST
 Request URI:	https://sasik288120.atlassian.net/rest/api/2/issue/
-Proxy:			&lt;none&gt;
-Request params:	&lt;none&gt;
-Query params:	&lt;none&gt;
-Form params:	&lt;none&gt;
-Path params:	&lt;none&gt;
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
 Headers:		Accept=*/*
 				Content-Type=application/json; charset=UTF-8
-Cookies:		&lt;none&gt;
-Multiparts:		&lt;none&gt;
+Cookies:		<none>
+Multiparts:		<none>
 Body:
 {
-    &quot;fields&quot;: {
-        &quot;project&quot;: {
-            &quot;key&quot;: &quot;KAN&quot;
+    "fields": {
+        "project": {
+            "key": "KAN"
         },
-        &quot;summary&quot;: &quot;LoginPage button issue&quot;,
-        &quot;description&quot;: &quot;Clicking login page button not going to login page&quot;,
-        &quot;issuetype&quot;: {
-            &quot;name&quot;: &quot;Bug&quot;
+        "summary": "LoginPage button issue",
+        "description": "Clicking login page button not going to login page",
+        "issuetype": {
+            "name": "Bug"
         }
     }
 }
-HTTP/1.1 401 Unauthorized
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mAdd request Specification for the request&amp#27;[0m &amp#27;[90m# StepDefinition.add_request_Specification_for_the_request()&amp#27;[0m
+
+  @getissue
+  Scenario: To validate the retrieve issue in Jira_Api using Get_Request_Method &amp#27;[90m# src/test/resources/Feature/JiraApi.feature:20&amp#27;[0m
+Request method:	GET
+Request URI:	https://sasik288120.atlassian.net/rest/api/2/issue/KAN-311
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mAdd endpoint to the &amp#27;[0m&amp#27;[32m&amp#27;[1m"get"&amp#27;[0m&amp#27;[32m Request&amp#27;[0m                                      &amp#27;[90m# StepDefinition.add_endpoint_to_the_Request(String)&amp#27;[0m
+HTTP/1.1 200 OK
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
 Connection: keep-alive
-Date: Mon, 03 Feb 2025 06:49:39 GMT
+Date: Sun, 06 Apr 2025 04:15:23 GMT
 Server: AtlassianEdge
 Timing-Allow-Origin: *
-X-Arequestid: c762c210fcf9b5d22198eede5310c17c
-X-Seraph-Loginreason: AUTHENTICATED_FAILED
-Set-Cookie: atlassian.xsrf.token=44c343070fc6ce03045711ae87ba270a28209276_lout; Path=/; SameSite=None; Secure
+X-Arequestid: 8bed8c8d3bcadccb2a63df7f4cb2b7d6
+Set-Cookie: atlassian.xsrf.token=6eb91797a04aafba96830d2929fccaf0f9ed16ea_lin; Path=/; SameSite=None; Secure
+X-Aaccountid: 712020%3A929c13a7-6ba1-4081-83c5-d91c7c7c7b78
 Cache-Control: no-cache, no-store, no-transform
-Www-Authenticate: OAuth realm=&quot;https%3A%2F%2Fsasik288120.atlassian.net&quot;
+Vary: Accept-Encoding
+Content-Encoding: gzip
 X-Content-Type-Options: nosniff
 X-Xss-Protection: 1; mode=block
-Atl-Traceid: bc826b3fe32242fba7f48c33cab70aed
-Atl-Request-Id: bc826b3f-e322-42fb-a7f4-8c33cab70aed
+Atl-Traceid: ab78c6929a334073960a9093a7001367
+Atl-Request-Id: ab78c692-9a33-4073-960a-9093a7001367
 Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
-Report-To: {&quot;endpoints&quot;: [{&quot;url&quot;: &quot;https://dz8aopenkvv6s.cloudfront.net&quot;}], &quot;group&quot;: &quot;endpoint-1&quot;, &quot;include_subdomains&quot;: true, &quot;max_age&quot;: 600}
-Nel: {&quot;failure_fraction&quot;: 0.001, &quot;include_subdomains&quot;: true, &quot;max_age&quot;: 600, &quot;report_to&quot;: &quot;endpoint-1&quot;}
-Server-Timing: atl-edge;dur=444,atl-edge-internal;dur=147,atl-edge-upstream;dur=246,atl-edge-pop;desc=&quot;aws-ap-south-1&quot;
-X-Cache: Error from cloudfront
-Via: 1.1 5aa3e4ef3324643e6b3a97a3004f9118.cloudfront.net (CloudFront)
-X-Amz-Cf-Pop: MAA51-C2
-X-Amz-Cf-Id: eacAF0cYdiAMvbFKRDcW_7lM1i5t46m1j6pBodu5ybR3YqvsusF_uA==
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+X-Cache: Miss from cloudfront
+Via: 1.1 8890f821f2766635a0bf9c35769eb6d6.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: MAA50-P1
+X-Amz-Cf-Id: UFNTqXp7e7Cadj5jpQjk9esvXjamfSfr4bAVAcTlGiBGof9-scGkeA==
+Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=16,cdn-upstream-fbl;dur=397,atl-edge;dur=328,atl-edge-internal;dur=16,atl-edge-upstream;dur=312,atl-edge-pop;desc="aws-ap-south-1",cdn-cache-miss,cdn-pop;desc="MAA50-P1",cdn-rid;desc="UFNTqXp7e7Cadj5jpQjk9esvXjamfSfr4bAVAcTlGiBGof9-scGkeA==",cdn-downstream-fbl;dur=401
 
 {
-    &quot;errorMessages&quot;: [
-        &quot;You do not have permission to create issues in this project.&quot;
-    ],
-    &quot;errors&quot;: {
-        
+    "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+    "id": "10362",
+    "self": "https://sasik288120.atlassian.net/rest/api/2/issue/10362",
+    "key": "KAN-311",
+    "fields": {
+        "statuscategorychangedate": "2025-04-06T09:45:22.276+0530",
+        "issuetype": {
+            "self": "https://sasik288120.atlassian.net/rest/api/2/issuetype/10015",
+            "id": "10015",
+            "description": "Bugs track problems or errors.",
+            "iconUrl": "https://sasik288120.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+            "name": "Bug",
+            "subtask": false,
+            "avatarId": 10303,
+            "entityId": "b8a81a78-76ac-4093-998f-a215854ab337",
+            "hierarchyLevel": 0
+        },
+        "components": [
+            
+        ],
+        "timespent": null,
+        "timeoriginalestimate": null,
+        "project": {
+            "self": "https://sasik288120.atlassian.net/rest/api/2/project/10000",
+            "id": "10000",
+            "key": "KAN",
+            "name": "My Kanban Project",
+            "projectTypeKey": "software",
+            "simplified": true,
+            "avatarUrls": {
+                "48x48": "https://sasik288120.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10403",
+                "24x24": "https://sasik288120.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10403?size=small",
+                "16x16": "https://sasik288120.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10403?size=xsmall",
+                "32x32": "https://sasik288120.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10403?size=medium"
+            }
+        },
+        "description": "Clicking login page button not going to login page",
+        "fixVersions": [
+            
+        ],
+        "statusCategory": {
+            "self": "https://sasik288120.atlassian.net/rest/api/2/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "To Do"
+        },
+        "customfield_10034": null,
+        "aggregatetimespent": null,
+        "resolution": null,
+        "timetracking": {
+            
+        },
+        "security": null,
+        "attachment": [
+            
+        ],
+        "aggregatetimeestimate": null,
+        "resolutiondate": null,
+        "workratio": -1,
+        "summary": "LoginPage button issue",
+        "watches": {
+            "self": "https://sasik288120.atlassian.net/rest/api/2/issue/KAN-311/watchers",
+            "watchCount": 1,
+            "isWatching": true
+        },
+        "issuerestriction": {
+            "issuerestrictions": {
+                
+            },
+            "shouldDisplay": true
+        },
+        "lastViewed": null,
+        "creator": {
+            "self": "https://sasik288120.atlassian.net/rest/api/2/user?accountId=712020%3A929c13a7-6ba1-4081-83c5-d91c7c7c7b78",
+            "accountId": "712020:929c13a7-6ba1-4081-83c5-d91c7c7c7b78",
+            "emailAddress": "sasik288120@gmail.com",
+            "avatarUrls": {
+                "48x48": "https://secure.gravatar.com/avatar/4b6f2d6982f5b77ec1f54557b799db92?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FS-5.png",
+                "24x24": "https://secure.gravatar.com/avatar/4b6f2d6982f5b77ec1f54557b799db92?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FS-5.png",
+                "16x16": "https://secure.gravatar.com/avatar/4b6f2d6982f5b77ec1f54557b799db92?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FS-5.png",
+                "32x32": "https://secure.gravatar.com/avatar/4b6f2d6982f5b77ec1f54557b799db92?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FS-5.png"
+            },
+            "displayName": "Sasi",
+            "active": true,
+            "timeZone": "Asia/Calcutta",
+            "accountType": "atlassian"
+        },
+        "subtasks": [
+            
+        ],
+        "created": "2025-04-06T09:45:20.187+0530",
+        "reporter": {
+            "self": "https://sasik288120.atlassian.net/rest/api/2/user?accountId=712020%3A929c13a7-6ba1-4081-83c5-d91c7c7c7b78",
+            "accountId": "712020:929c13a7-6ba1-4081-83c5-d91c7c7c7b78",
+            "emailAddress": "sasik288120@gmail.com",
+            "avatarUrls": {
+                "48x48": "https://secure.gravatar.com/avatar/4b6f2d6982f5b77ec1f54557b799db92?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FS-5.png",
+                "24x24": "https://secure.gravatar.com/avatar/4b6f2d6982f5b77ec1f54557b799db92?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FS-5.png",
+                "16x16": "https://secure.gravatar.com/avatar/4b6f2d6982f5b77ec1f54557b799db92?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FS-5.png",
+                "32x32": "https://secure.gravatar.com/avatar/4b6f2d6982f5b77ec1f54557b799db92?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FS-5.png"
+            },
+            "displayName": "Sasi",
+            "active": true,
+            "timeZone": "Asia/Calcutta",
+            "accountType": "atlassian"
+        },
+        "customfield_10021": null,
+        "aggregateprogress": {
+            "progress": 0,
+            "total": 0
+        },
+        "customfield_10001": null,
+        "priority": {
+            "self": "https://sasik288120.atlassian.net/rest/api/2/priority/3",
+            "iconUrl": "https://sasik288120.atlassian.net/images/icons/priorities/medium.svg",
+            "name": "Medium",
+            "id": "3"
+        },
+        "labels": [
+            
+        ],
+        "environment": null,
+        "customfield_10019": "0|i001hj:",
+        "timeestimate": null,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [
+            
+        ],
+        "duedate": null,
+        "progress": {
+            "progress": 0,
+            "total": 0
+        },
+        "comment": {
+            "comments": [
+                
+            ],
+            "self": "https://sasik288120.atlassian.net/rest/api/2/issue/10362/comment",
+            "maxResults": 0,
+            "total": 0,
+            "startAt": 0
+        },
+        "votes": {
+            "self": "https://sasik288120.atlassian.net/rest/api/2/issue/KAN-311/votes",
+            "votes": 0,
+            "hasVoted": false
+        },
+        "issuelinks": [
+            
+        ],
+        "assignee": null,
+        "worklog": {
+            "startAt": 0,
+            "maxResults": 20,
+            "total": 0,
+            "worklogs": [
+                
+            ]
+        },
+        "updated": "2025-04-06T09:45:20.271+0530",
+        "status": {
+            "self": "https://sasik288120.atlassian.net/rest/api/2/status/10000",
+            "description": "",
+            "iconUrl": "https://sasik288120.atlassian.net/",
+            "name": "To Do",
+            "id": "10000",
+            "statusCategory": {
+                "self": "https://sasik288120.atlassian.net/rest/api/2/statuscategory/2",
+                "id": 2,
+                "key": "new",
+                "colorName": "blue-gray",
+                "name": "To Do"
+            }
+        }
     }
 }
-</system-out>
-    <system-err>SLF4J(W): No SLF4J providers were found.
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mValidate the Response_status_code for the Request as &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m               &amp#27;[90m# StepDefinition.validate_the_response_status_code_for_the_request_as(Integer)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Apr 06, 2025 9:45:14 AM cucumber.runtime.filter.TagExpressionOld isOldTagExpression
+WARNING: Found tags option '@deleteissue,@getissue'. Support for '@tag1,@tag2' will be removed from the next release of Cucumber-JVM. Please use '@tag or @tag2' instead
+SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-</system-err>
+]]></system-err>
   </testcase>
-  <testcase classname="To validate the Jira_Api" name="To validate the update issue in Jira_API using Put_Request_Method" time="0.921">
-    <failure message="1 expectation failed.
-Expected status code &lt;204&gt; but was &lt;404&gt;.
-" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;204&gt; but was &lt;404&gt;.
-
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
-	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:92)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:288)
-	at io.restassured.internal.ValidatableResponseImpl.super$2$spec(ValidatableResponseImpl.groovy)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
-	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
-	at io.restassured.internal.ValidatableResponseImpl.spec(ValidatableResponseImpl.groovy:76)
-	at io.restassured.internal.ValidatableResponseImpl.spec(ValidatableResponseImpl.groovy)
-	at org.stepdefinition.StepDefinition.validate_the_response_status_code_for_the_request_as(StepDefinition.java:41)
-	at ✽.Validate the Response_status_code for the Request as 204(file:src/test/resources/Feature/JiraApi.feature:14)
-</failure>
-    <system-out>Request method:	PUT
-Request URI:	https://sasik288120.atlassian.net/rest/api/2/issue/null
-Proxy:			&lt;none&gt;
-Request params:	&lt;none&gt;
-Query params:	&lt;none&gt;
-Form params:	&lt;none&gt;
-Path params:	&lt;none&gt;
+  <testcase name="To validate the delete issue in Jira_Api using Delete_Request_Method" classname="To validate the Jira_Api" time="5.935">
+    <system-out><![CDATA[
+  Background:                                       &amp#27;[90m# src/test/resources/Feature/JiraApi.feature:2&amp#27;[0m
+Request method:	POST
+Request URI:	https://sasik288120.atlassian.net/rest/api/2/issue/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
 Headers:		Accept=*/*
 				Content-Type=application/json; charset=UTF-8
-Cookies:		&lt;none&gt;
-Multiparts:		&lt;none&gt;
+Cookies:		<none>
+Multiparts:		<none>
 Body:
 {
-    &quot;fields&quot;: {
-        &quot;summary&quot;: &quot;creatig bug in login&quot;,
-        &quot;description&quot;: &quot;Description&quot;
+    "fields": {
+        "project": {
+            "key": "KAN"
+        },
+        "summary": "LoginPage button issue",
+        "description": "Clicking login page button not going to login page",
+        "issuetype": {
+            "name": "Bug"
+        }
     }
 }
-HTTP/1.1 404 Not Found
-Content-Type: application/json;charset=UTF-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-Date: Mon, 03 Feb 2025 06:49:41 GMT
-Server: AtlassianEdge
-Timing-Allow-Origin: *
-X-Arequestid: b698c2c97c0e1e47b53f0b4a16f9d553
-X-Seraph-Loginreason: AUTHENTICATED_FAILED
-Set-Cookie: atlassian.xsrf.token=befd405b413877018d313545bc77735ef37f7324_lout; Path=/; SameSite=None; Secure
-Cache-Control: no-cache, no-store, no-transform
-Content-Encoding: gzip
-X-Content-Type-Options: nosniff
-X-Xss-Protection: 1; mode=block
-Atl-Traceid: 507d3d9a8287471694a3a1d363bd1e9e
-Atl-Request-Id: 507d3d9a-8287-4716-94a3-a1d363bd1e9e
-Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
-Report-To: {&quot;endpoints&quot;: [{&quot;url&quot;: &quot;https://dz8aopenkvv6s.cloudfront.net&quot;}], &quot;group&quot;: &quot;endpoint-1&quot;, &quot;include_subdomains&quot;: true, &quot;max_age&quot;: 600}
-Nel: {&quot;failure_fraction&quot;: 0.001, &quot;include_subdomains&quot;: true, &quot;max_age&quot;: 600, &quot;report_to&quot;: &quot;endpoint-1&quot;}
-Server-Timing: atl-edge;dur=404,atl-edge-internal;dur=152,atl-edge-upstream;dur=203,atl-edge-pop;desc=&quot;aws-ap-south-1&quot;
-X-Cache: Error from cloudfront
-Via: 1.1 3e9b3998f63da3eb4c56af402e49224e.cloudfront.net (CloudFront)
-X-Amz-Cf-Pop: MAA51-C2
-X-Amz-Cf-Id: DkSdZ1_vo79HJdDYoHJGU6RQxNIfA2iQrjgeEycGkUw6MTiZAP0BNQ==
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mAdd request Specification for the request&amp#27;[0m &amp#27;[90m# StepDefinition.add_request_Specification_for_the_request()&amp#27;[0m
 
-{
-    &quot;errorMessages&quot;: [
-        &quot;Issue does not exist or you do not have permission to see it.&quot;
-    ],
-    &quot;errors&quot;: {
-        
-    }
-}
-</system-out>
-  </testcase>
-  <testcase classname="To validate the Jira_Api" name="To validate the retrieve issue in Jira_Api using Get_Request_Method" time="0.918">
-    <failure message="1 expectation failed.
-Expected status code &lt;200&gt; but was &lt;404&gt;.
-" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;200&gt; but was &lt;404&gt;.
-
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
-	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:92)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:288)
-	at io.restassured.internal.ValidatableResponseImpl.super$2$spec(ValidatableResponseImpl.groovy)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
-	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
-	at io.restassured.internal.ValidatableResponseImpl.spec(ValidatableResponseImpl.groovy:76)
-	at io.restassured.internal.ValidatableResponseImpl.spec(ValidatableResponseImpl.groovy)
-	at org.stepdefinition.StepDefinition.validate_the_response_status_code_for_the_request_as(StepDefinition.java:41)
-	at ✽.Validate the Response_status_code for the Request as 200(file:src/test/resources/Feature/JiraApi.feature:19)
-</failure>
-    <system-out>Request method:	GET
-Request URI:	https://sasik288120.atlassian.net/rest/api/2/issue/null
-Proxy:			&lt;none&gt;
-Request params:	&lt;none&gt;
-Query params:	&lt;none&gt;
-Form params:	&lt;none&gt;
-Path params:	&lt;none&gt;
+  @deleteissue
+  Scenario: To validate the delete issue in Jira_Api using Delete_Request_Method &amp#27;[90m# src/test/resources/Feature/JiraApi.feature:25&amp#27;[0m
+Request method:	DELETE
+Request URI:	https://sasik288120.atlassian.net/rest/api/2/issue/KAN-312
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
 Headers:		Accept=*/*
 				Content-Type=application/json; charset=UTF-8
-Cookies:		&lt;none&gt;
-Multiparts:		&lt;none&gt;
-Body:			&lt;none&gt;
-HTTP/1.1 404 Not Found
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mAdd endpoint to the &amp#27;[0m&amp#27;[32m&amp#27;[1m"delete"&amp#27;[0m&amp#27;[32m Request&amp#27;[0m                                    &amp#27;[90m# StepDefinition.add_endpoint_to_the_Request(String)&amp#27;[0m
+HTTP/1.1 204 No Content
 Content-Type: application/json;charset=UTF-8
-Transfer-Encoding: chunked
 Connection: keep-alive
-Date: Mon, 03 Feb 2025 06:49:42 GMT
+Date: Sun, 06 Apr 2025 04:15:29 GMT
 Server: AtlassianEdge
 Timing-Allow-Origin: *
-X-Arequestid: d0f9bccb1be18add077efaa14d091712
-X-Seraph-Loginreason: AUTHENTICATED_FAILED
-Set-Cookie: atlassian.xsrf.token=dfca6fd5bf1024f9ab3892a4da34fdb84f0e5e6e_lout; Path=/; SameSite=None; Secure
+X-Arequestid: 5275df8a340e935ccbd82b0e65799bba
+Set-Cookie: atlassian.xsrf.token=71c3745094c1ff5ee46ba8b8c4dfedd09c8fcada_lin; Path=/; SameSite=None; Secure
+X-Aaccountid: 712020%3A929c13a7-6ba1-4081-83c5-d91c7c7c7b78
 Cache-Control: no-cache, no-store, no-transform
-Content-Encoding: gzip
+Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
 X-Xss-Protection: 1; mode=block
-Atl-Traceid: bef0cea3114f4f95be7e99e2229d8584
-Atl-Request-Id: bef0cea3-114f-4f95-be7e-99e2229d8584
+Atl-Traceid: 7bf4d728888042ea951a721300984ace
+Atl-Request-Id: 7bf4d728-8880-42ea-951a-721300984ace
 Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
-Report-To: {&quot;endpoints&quot;: [{&quot;url&quot;: &quot;https://dz8aopenkvv6s.cloudfront.net&quot;}], &quot;group&quot;: &quot;endpoint-1&quot;, &quot;include_subdomains&quot;: true, &quot;max_age&quot;: 600}
-Nel: {&quot;failure_fraction&quot;: 0.001, &quot;include_subdomains&quot;: true, &quot;max_age&quot;: 600, &quot;report_to&quot;: &quot;endpoint-1&quot;}
-Server-Timing: atl-edge;dur=458,atl-edge-internal;dur=157,atl-edge-upstream;dur=253,atl-edge-pop;desc=&quot;aws-ap-south-1&quot;
-X-Cache: Error from cloudfront
-Via: 1.1 2583973e0ec58d9d3a773297f09412ee.cloudfront.net (CloudFront)
-X-Amz-Cf-Pop: MAA51-C2
-X-Amz-Cf-Id: jEAEOicDjrWFJMf29Jk2UEqn_338UD5JqvVT2dwTstjhN3hQKGeBAQ==
-
-{
-    &quot;errorMessages&quot;: [
-        &quot;Issue does not exist or you do not have permission to see it.&quot;
-    ],
-    &quot;errors&quot;: {
-        
-    }
-}
-</system-out>
-  </testcase>
-  <testcase classname="To validate the Jira_Api" name="To validate the delete issue in Jira_Api using Delete_Request_Method" time="0.828">
-    <failure message="1 expectation failed.
-Expected status code &lt;204&gt; but was &lt;404&gt;.
-" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;204&gt; but was &lt;404&gt;.
-
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
-	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:92)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:288)
-	at io.restassured.internal.ValidatableResponseImpl.super$2$spec(ValidatableResponseImpl.groovy)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
-	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
-	at io.restassured.internal.ValidatableResponseImpl.spec(ValidatableResponseImpl.groovy:76)
-	at io.restassured.internal.ValidatableResponseImpl.spec(ValidatableResponseImpl.groovy)
-	at org.stepdefinition.StepDefinition.validate_the_response_status_code_for_the_request_as(StepDefinition.java:41)
-	at ✽.Validate the Response_status_code for the Request as 204(file:src/test/resources/Feature/JiraApi.feature:25)
-</failure>
-    <system-out>Request method:	DELETE
-Request URI:	https://sasik288120.atlassian.net/rest/api/2/issue/null
-Proxy:			&lt;none&gt;
-Request params:	&lt;none&gt;
-Query params:	&lt;none&gt;
-Form params:	&lt;none&gt;
-Path params:	&lt;none&gt;
-Headers:		Accept=*/*
-				Content-Type=application/json; charset=UTF-8
-Cookies:		&lt;none&gt;
-Multiparts:		&lt;none&gt;
-Body:			&lt;none&gt;
-HTTP/1.1 404 Not Found
-Content-Type: application/json;charset=UTF-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-Date: Mon, 03 Feb 2025 06:49:43 GMT
-Server: AtlassianEdge
-Timing-Allow-Origin: *
-X-Arequestid: d0d91fce63712b9098ab5cf0ee0fb426
-X-Seraph-Loginreason: AUTHENTICATED_FAILED
-Set-Cookie: atlassian.xsrf.token=4d8ebbceb15536be79e87fca92032b2be2ccdc33_lout; Path=/; SameSite=None; Secure
-Cache-Control: no-cache, no-store, no-transform
-Content-Encoding: gzip
-X-Content-Type-Options: nosniff
-X-Xss-Protection: 1; mode=block
-Atl-Traceid: b83ceb66d8a64c26996b2a3166f32d92
-Atl-Request-Id: b83ceb66-d8a6-4c26-996b-2a3166f32d92
-Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
-Report-To: {&quot;endpoints&quot;: [{&quot;url&quot;: &quot;https://dz8aopenkvv6s.cloudfront.net&quot;}], &quot;group&quot;: &quot;endpoint-1&quot;, &quot;include_subdomains&quot;: true, &quot;max_age&quot;: 600}
-Nel: {&quot;failure_fraction&quot;: 0.001, &quot;include_subdomains&quot;: true, &quot;max_age&quot;: 600, &quot;report_to&quot;: &quot;endpoint-1&quot;}
-Server-Timing: atl-edge;dur=454,atl-edge-internal;dur=150,atl-edge-upstream;dur=259,atl-edge-pop;desc=&quot;aws-ap-south-1&quot;
-X-Cache: Error from cloudfront
-Via: 1.1 640fa25b6b0e269c235d870b4229e90c.cloudfront.net (CloudFront)
-X-Amz-Cf-Pop: MAA51-C2
-X-Amz-Cf-Id: 6ibf5dtwTkKomT3sz09FapkLh4_DqdjrFDSlVPkCUA8ZLgnaIYn-MA==
-
-{
-    &quot;errorMessages&quot;: [
-        &quot;Issue does not exist or you do not have permission to see it.&quot;
-    ],
-    &quot;errors&quot;: {
-        
-    }
-}
-</system-out>
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+X-Cache: Miss from cloudfront
+Via: 1.1 b863175923d6206c18a8c6260f57ceaa.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: MAA50-P1
+X-Amz-Cf-Id: FWqstoh5li6B7bpzwC1RIAslbWRQsuPjeUzocSle5aMhuxo-b6Z6xg==
+Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=16,cdn-upstream-fbl;dur=2521,atl-edge;dur=2452,atl-edge-internal;dur=148,atl-edge-upstream;dur=2255,atl-edge-pop;desc="aws-ap-south-1",cdn-cache-miss,cdn-pop;desc="MAA50-P1",cdn-rid;desc="FWqstoh5li6B7bpzwC1RIAslbWRQsuPjeUzocSle5aMhuxo-b6Z6xg==",cdn-downstream-fbl;dur=2525
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mValidate the Response_status_code for the Request as &amp#27;[0m&amp#27;[32m&amp#27;[1m204&amp#27;[0m                &amp#27;[90m# StepDefinition.validate_the_response_status_code_for_the_request_as(Integer)&amp#27;[0m
+]]></system-out>
   </testcase>
 </testsuite>

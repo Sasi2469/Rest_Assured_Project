@@ -1,0 +1,181 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 29444600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Add request Specification for the request",
+            "match": {
+              "location": "StepDefinition.add_request_Specification_for_the_request()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-04-06T04:15:15.187Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7689909500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "To validate the retrieve issue in Jira_Api using Get_Request_Method",
+        "description": "",
+        "id": "to-validate-the-jira-api;to-validate-the-retrieve-issue-in-jira-api-using-get-request-method",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 526642800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Add endpoint to the \"get\" Request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"get\"",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefinition.add_endpoint_to_the_Request(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 73708300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Validate the Response_status_code for the Request as 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 53
+                }
+              ],
+              "location": "StepDefinition.validate_the_response_status_code_for_the_request_as(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@getissue"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 19442300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Add request Specification for the request",
+            "match": {
+              "location": "StepDefinition.add_request_Specification_for_the_request()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-04-06T04:15:23.540Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3311905600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "To validate the delete issue in Jira_Api using Delete_Request_Method",
+        "description": "",
+        "id": "to-validate-the-jira-api;to-validate-the-delete-issue-in-jira-api-using-delete-request-method",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2594044300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Add endpoint to the \"delete\" Request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"delete\"",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefinition.add_endpoint_to_the_Request(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1963600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Validate the Response_status_code for the Request as 204",
+            "match": {
+              "arguments": [
+                {
+                  "val": "204",
+                  "offset": 53
+                }
+              ],
+              "location": "StepDefinition.validate_the_response_status_code_for_the_request_as(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@deleteissue"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the Jira_Api",
+    "description": "",
+    "id": "to-validate-the-jira-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/JiraApi.feature",
+    "tags": []
+  }
+]

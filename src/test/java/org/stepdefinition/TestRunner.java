@@ -12,8 +12,9 @@ import io.cucumber.junit.CucumberOptions;
                  plugin= {"pretty",
                 		 "html:src\\test\\resources\\reports\\HtmlReport",
                          "json:src\\test\\resources\\reports\\JsonReport\\report.json",
-                         "junit:src\\test\\resources\\reports\\JunitReport\\junitreport.xml"})
-         //       ,tags="@deleteissue,@getissue")
+                         "junit:src\\test\\resources\\reports\\JunitReport\\junitreport.xml"}
+            //   ,tags="@deleteissue,@getissue"
+            	   )
 public class TestRunner {
 
 }
