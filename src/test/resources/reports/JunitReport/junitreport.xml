@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="14.28306">
+    <testcase classname="To validate the Jira_Api" name="To validate the retrieve issue in Jira_Api using Get_Request_Method" time="8.34351">
+        <system-out><![CDATA[Given Add request Specification for the request.............................passed
+When Add endpoint to the "get" Request......................................passed
+Then Validate the Response_status_code for the Request as 200...............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the Jira_Api" name="To validate the delete issue in Jira_Api using Delete_Request_Method" time="5.93955">
+        <system-out><![CDATA[Given Add request Specification for the request.............................passed
+When Add endpoint to the "delete" Request...................................passed
+Then Validate the Response_status_code for the Request as 204...............passed
+]]></system-out>
+    </testcase>
+</testsuite>
